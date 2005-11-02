@@ -6,12 +6,14 @@ $navlist = array(
 );
 
 function include_safe($file) {
-	if (strpos(realpath("include/$file"), realpath($_SERVER['DOCUMENT_ROOT'])) !== 0) {
-		$code = 403;
-		require("errors.php");
-	}
-	elseif (file_exists("include/$file")) {
-		include($file);
+	if (file_exists("include/$file")) {
+		if (strpos(realpath("include/$file"), realpath($_SERVER['DOCUMENT_ROOT'])) !== 0) {
+			$code = 403;
+			require("errors.php");
+		}
+		else {
+			include($file);
+		}
 	}
 	else {
 		$code = 404;
@@ -24,5 +26,5 @@ if (!$_GET['page']) {
 }
 else {
 	$page = $_GET['page'];
-
+}
 ?>

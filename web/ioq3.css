@@ -5,7 +5,13 @@ body, html {
 	background-color: #888;
 }
 
+#content {
+	float: left;
+	clear: left;
+}
+
 #footer {
+	clear: left;
 	color: #4d4d4d;
 	background-color: transparent;
 	border-top: .1em dashed #222;
@@ -17,6 +23,16 @@ body, html {
 	color: #4b4b4b
 	;
 	background-color: transparent;
+}
+
+#navigation {
+	float: right;
+	list-style: none;
+	display: inline;
+}
+
+#navigation li {
+	display: inline;
 }
 
 :link, :visited {
@@ -32,6 +48,7 @@ h1, :link:hover, :visited:hover {
 }
 
 h1 {
+	float: left;
 	font-size: 1.75em;
 }
 
@@ -58,5 +75,9 @@ img {
 	background-color: #aaa;
 	font-style: italic;
 	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.current {
 	font-weight: bold;
 }
