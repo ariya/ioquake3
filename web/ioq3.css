@@ -20,8 +20,7 @@ body, html {
 }
 
 #footer a {
-	color: #4b4b4b
-	;
+	color: #4b4b4b;
 	background-color: transparent;
 }
 
@@ -48,7 +47,6 @@ h1, :link:hover, :visited:hover {
 }
 
 h1 {
-	float: left;
 	font-size: 1.75em;
 }
 
