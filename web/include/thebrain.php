@@ -8,6 +8,8 @@ $navlist = array(
 function include_safe($file) {
 	if (file_exists("include/$file")) {
 		if (strpos(realpath("include/$file"), realpath($_SERVER['DOCUMENT_ROOT'])) !== 0) {
+			echo $_SERVER['DOCUMENT_ROOT'];
+			echo realpath("include/$file");
 			$code = 403;
 			require("errors.php");
 		}
