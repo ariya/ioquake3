@@ -1,0 +1,40 @@
+body, html {
+	font-family: "Trebuchet Sans MS", "Bitstream Vera Sans", sans-serif;
+	font-size: 10pt;
+	background-color: #888;
+}
+
+:link, :visited { 
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+:link:hover, :visited:hover {
+	color: maroon;
+}
+
+h1 {
+	color: maroon;
+	font-size: 1.75em;
+}
+
+h2 {
+	color: #440000;
+	font-size: 1.25em;
+}
+
+img {
+	float: right;
+}
+
+.shell {
+	font-family: "smoothansi", "Bitstream Vera Sans Mono", "Terminal", monospace;
+}
+
+.angryzakk {
+	background-color: #aaa;
+	font-style: italic;
+	font-size: 1.2em;
+	font-weight: bold;
+}
