@@ -1,0 +1,41 @@
+<?php
+set_include_path("include");
+require("thebrain.php");
+ob_start();
+?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta content="application/xhtml+xml; charset=UTF-8" />
+	<title>icculus.org/quake3 <?php //echo current section ?></title>
+	<link rel="stylesheet" href="ioq3.css" type="text/css" />
+</head>
+<body>
+	<h1>icculus.org/quake3</h1>
+	<div id="navigation">
+		<?php
+		foreach ($navlist as $file => $alias) {
+			echo "<li";
+			if ($file == $_GET['page']) { echo " class=\"current\" "; }
+			echo "><a href=\"/$file\">$alias</a></li>\n";
+		}
+		?>
+	</div>
+	<div id="content">
+		<?php safe_include($_GET['page']); ?>
+	</div>
+	<div id="footer">
+		<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://icculus.org/quake3/ioq3.css">
+			Valid CSS
+		</a>|
+		<a href="http://validator.w3.org/check?uri=http://icculus.org/quake3">
+			Valid XHTML
+		</a>|
+		<a href="http://icculus.org">icculus.org</a>
+		<br />
+		Website Design by <a href="http://floam.sh.nu" title="floam">Aaron Gyes</a>
+	</div>
+</body>
+</html>
+<?php ob_end_flush(); ?>
