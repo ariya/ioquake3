@@ -6,7 +6,7 @@ body, html {
 }
 
 #footer {
-	color: #aaa;
+	color: #4d4d4d;
 	background-color: transparent;
 	border-top: .1em dashed #222;
 	padding-top: .3em;
@@ -14,7 +14,8 @@ body, html {
 }
 
 #footer a {
-	color: #aaa;
+	color: #4b4b4b
+	;
 	background-color: transparent;
 }
 
