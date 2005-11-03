@@ -27,6 +27,11 @@ body, html {
 	background-color: transparent;
 }
 
+#footer a:hover {
+	color: black;
+	background-color: transparent;
+}
+
 #navigation {
 	float: right;
 	list-style: none;
@@ -35,7 +40,7 @@ body, html {
 	color: black;
 	margin-top: 0;
 	padding-left: 0;
-	padding-bottom: .1em;
+	padding-bottom: .2em;
 	border-left: 1px dashed #222;
 	border-bottom: 1px dashed #222;
 }
@@ -67,6 +72,13 @@ h2 {
 	color: #440000;
 	background-color: transparent;
 	font-size: 1.25em;
+}
+
+h3 {
+	color: #440000;
+	background-color: transparent;
+	font-size: 1em;
+	margin: .5em 0 .5em 0;
 }
 
 img {
