@@ -14,7 +14,7 @@ body, html {
 	clear: left;
 	color: #4d4d4d;
 	background-color: transparent;
-	border-top: .1em dashed #222;
+	border-top: 1px dashed #222;
 	padding-top: .3em;
 	font-size: .8em;
 }
@@ -47,6 +47,7 @@ h1, :link:hover, :visited:hover {
 }
 
 h1 {
+	float: left;
 	font-size: 1.75em;
 }
 
@@ -58,6 +59,26 @@ h2 {
 
 img {
 	border: 0;
+}
+
+table {
+	border: none;
+	border-spacing: 0;
+}
+
+
+th {
+	text-align:	left;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+	padding: .5em;
+}
+
+td {
+	background-color: #8f8f8f;
+	border-bottom: 1px dashed #777;
+	border-right: 1px dashed #777;
+	padding: .20em;
 }
 
 .right {
