@@ -66,6 +66,11 @@ table {
 	border-spacing: 0;
 }
 
+caption {
+	color: maroon;
+	background-color: transparent;
+	font-variant: small-caps;
+}
 
 th {
 	text-align:	left;
