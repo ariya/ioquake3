@@ -3,11 +3,13 @@ body, html {
 	font-size: 10pt;
 	color: black;
 	background-color: #888;
+	margin: 0;
 }
 
 #content {
 	float: left;
 	clear: left;
+	padding: 1em;
 }
 
 #footer {
@@ -28,10 +30,18 @@ body, html {
 	float: right;
 	list-style: none;
 	display: inline;
+	background-color: #aaa;
+	color: black;
+	margin-top: 0;
+	padding-left: 0;
+	padding-bottom: .1em;
+	border-left: 1px dashed #222;
+	border-bottom: 1px dashed #222;
 }
 
 #navigation li {
 	display: inline;
+	padding: .2em;
 }
 
 :link, :visited {
@@ -49,6 +59,7 @@ h1, :link:hover, :visited:hover {
 h1 {
 	float: left;
 	font-size: 1.75em;
+	padding-left: .5em;
 }
 
 h2 {

@@ -6,7 +6,7 @@ The source was released on August 20, 2005 under the GPL license. Since then, we
 feverishly been cleaning up, fixing bugs of, and adding features to it. Our eventual
 goal is to have created <strong>the</strong> Quake3 source code distribution that people
 base their games and mods with their own pointy goals upon. Our focus is initially
-to get the game working with our updates on Mac OS X, Windows, and Linux. Sane new features are also welcome. Modern graphical upgrades (bloom lighting, etc) would have to be disabled by dedfault
+to get the game working with our updates on Mac OS X, Windows, and Linux. Sane new features are also welcome. Modern graphical upgrades (bloom lighting, etc) would have to be disabled by default.
 </p>
 <h2>Progress.</h2>
 <p>While a lot is on the horizon, quite a few goals have been completed already. Quake 3

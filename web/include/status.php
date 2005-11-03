@@ -7,9 +7,9 @@
 	<li>Status is one of <em>working</em>, <em>broken</em> or <em>unknown</em>.</li>
 </ul>
 <table>
-	<caption>Working Status of Port Targets</caption>
+	<caption>Status of Port Targets</caption>
 	<tr>
-		<th scope="col">OS</th>
+		<th scope="col"><acronym title="Operating System">OS</acronym></th>
 		<th scope="col">Platform</th>
 		<th scope="col">Status</th>
 		<th scope="col"><acronym title="Last Known Working Revision">LKWR</acronym></th>
@@ -88,3 +88,9 @@
 	</tr>
 </table>
 <h2>Implemented Features</h2>
+<ul>
+	<li>SDL being used for xxx,xxx,xxx,xxx.</li>
+	<li>Colors converted to BASH colors!111</li>
+	<li>More supported platforms, see the table above.</li>
+</ul>
+<h2>Planned/Wanted features</h2>
