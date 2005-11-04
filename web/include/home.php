@@ -18,9 +18,9 @@ section.</p>
 <h2>The future</h2>
 <p>Current goals for 1.34 (SVN is 1.33, last id build was 1.32) include:
 </p>
-<UL>
-<LI> OpenAL support</LI>
-<LI> Binaries for Windows XP and Mac OS X at release.</LI>
-<LI> Linux will just get source unless somebody feels like setting up a new installer.</LI>
-<LI> Removal of DirectX for MSVC and mingw builds.</LI>
-</UL>
+<ul>
+<li> OpenAL support</li>
+<li> Binaries for Windows XP and Mac OS X at release.</li>
+<li> Linux will just get source unless somebody feels like setting up a new installer.</li>
+<li> Removal of DirectX for MSVC and mingw builds.</li>
+</ul>
