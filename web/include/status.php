@@ -90,7 +90,7 @@
 </table>
 <h2>Implemented Features</h2>
 <ul>
-	<li>SDL being used for xxx,xxx,xxx,xxx.</li>
+	<li>SDL being used for sound, input. Though not on Windows.</li>
 	<li>Colors converted to BASH colors!111</li>
 	<li>More supported platforms, see the table above.</li>
 </ul>
