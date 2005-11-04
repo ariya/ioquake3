@@ -48,10 +48,10 @@ tested and at list sort-of understand what you're doing.</p>
 you need to create patches with), and not everyone is making patches against the C code.
 That's okay, here's the 10¢ survival guide to making patches:</p>
 <ul>
-	<li>Create a patch between <em class="shell">oldfile</em> and <em class="shell">newfile</em>:<br />
-	<span class="shell">diff -u <em>oldfile</em> <em>newfile</em></span></li>
-	<li>Create a patch between directory <em class="shell">olddir</em> and <em class="shell">newdir</em>:<br />
-	<span class="shell">diff -Naur <em>olddir</em> <em>newdir</em></span></li>
+	<li>Create a patch named <em class="shell">amazing_new_feature.patch</em> between <em class="shell">oldfile</em> and <em class="shell">newfile</em>:<br />
+	<span class="shell">diff -u <em>oldfile</em> <em>newfile</em> &gt; <em>amazing_new_feature.patch</em></span></li>
+	<li>Create a patch named <em class="shell">amazing_new_features.patch</em> between directory <em class="shell">olddir</em> and <em class="shell">newdir</em>:<br />
+	<span class="shell">diff -Naur <em>olddir</em> <em>newdir</em> &gt; <em>amazing_new_features.patch</em></span></li>
 	<li>Apply a patch <em class="shell">amazing_new_feature.patch</em>:<br />
 	<span class="shell">patch -p0 -i <em>amazing_new_feature.patch</em></span></li>
 </ul>
