@@ -51,14 +51,14 @@ That's okay, here's the 10¢ survival guide to making patches:</p>
 	<li>Create a patch between <em class="shell">oldfile</em> and <em class="shell">newfile</em>:<br />
 	<span class="shell">diff -u <em>oldfile</em> <em>newfile</em></span></li>
 	<li>Create a patch between directory <em class="shell">olddir</em> and <em class="shell">newdir</em>:<br />
-	<span class="shell">diff -Naur <em>olddir</em> <em>newdir</em></li>
+	<span class="shell">diff -Naur <em>olddir</em> <em>newdir</em></span></li>
 	<li>Apply a patch <em class="shell">amazing_new_feature.patch</em>:<br />
 	<span class="shell">patch -p0 -i <em>amazing_new_feature.patch</em></span></li>
 </ul>
 <p>For more information on <span class="shell">diff</span> and <span class="shell">patch</span>,
 read their man-pages.</p>
 <p>The prefered way to get the ball rolling on a patch is to file a <a href="http://bugs.icculus.org">bug</a>
-for your patch and attach the patch to it and then send a notice to the mailing list
+for your request with the patch attached to it and then send a notice to the mailing list
 about it. If you're really so lazy that you can't do this, we would prefer you at least
 <a href="mailto:zakk@icculus.org">mail it to zakk@icculus.org</a> rather than not do
 anything.</p>

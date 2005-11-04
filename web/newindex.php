@@ -5,11 +5,12 @@ ob_start();
 ?>
 <?php //hawhaw
 	echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>";
+	echo $extradoctype;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-	<meta content="application/xhtml+xml; charset=UTF-8" />
+	<meta content="<?php echo $content_type; ?> charset=UTF-8" />
 	<title>icculus.org/quake3: <?php echo $navlist[$page]; ?></title>
 	<link rel="stylesheet" href="ioq3.css" type="text/css" />
 </head>

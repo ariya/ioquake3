@@ -60,26 +60,27 @@
 		<td></td> <!--LKWR-->
 		<td>Client has severe graphical glitches.</td> <!--Notes-->
 	</tr>
+	<tr>
 		<td scope="row">FreeBSD</td> <!--OS-->
 		<td>gcc-x86</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
 		<td></td> <!--Notes-->
 	</tr>
-	</tr>
+	<tr>
 		<td scope="row" rowspan="2">Solaris</td> <!--OS-->
 		<td>gcc-x86</td> <!--Platform-->
 		<td>broken</td> <!--Status-->
 		<td></td> <!--LKWR-->
 		<td></td> <!--Notes-->
 	</tr>
-	</tr>
+	<tr>
 		<td>gcc-sparc</td> <!--Platform-->
 		<td>broken</td> <!--Status-->
 		<td></td> <!--LKWR-->
 		<td></td> <!--Notes-->
 	</tr>
-	</tr>
+	<tr>
 		<td scope="row">IRIX</td> <!--OS-->
 		<td>cc-*</td> <!--Platform-->
 		<td>broken</td> <!--Status-->
