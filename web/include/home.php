@@ -16,3 +16,10 @@ to new platforms and architectures. Many security holes and other problems have 
 of new features, working status of platforms, and bugs is the <a href="?page=status">Status</a>
 section.</p>
 <h2>The future</h2>
+<p>Current goals for 1.34 (SVN is 1.33, last id build was 1.32) include:
+<UL>
+<LI> OpenAL support</LI>
+<LI> Binaries for Windows XP and Mac OS X at release.</LI>
+<LI> Linux will just get source unless somebody feels like setting up a new installer.</LI>
+<LI> Removal of DirectX for MSVC and mingw builds.</LI>
+</UL>
