@@ -8,19 +8,18 @@ goal is to have created <strong>the</strong> Quake3 source code distribution tha
 base their games and mods with their own pointy goals upon. Our focus is initially
 to get the game working with our updates on Mac OS X, Windows, and Linux. Sane new features are also welcome. Modern graphical upgrades (bloom lighting, etc) would have to be disabled by default.
 </p>
-<h2>Progress.</h2>
-<p>While a lot is on the horizon, quite a few goals have been completed already. Quake 3
-now works natively on x86_64 and PowerPC architectures, and the game builds and runs
-in FreeBSD. SDL is now used for input / contexts / sound, making the game far easier to port
-to new platforms and architectures. Many security holes and other problems have been repaired. A more in-depth database
-of new features, working status of platforms, and bugs is the <a href="?page=status">Status</a>
-section.</p>
+<h2>Progress</h2>
+<p>While a lot is left to be done, quite a few goals have been met already. Quake 3
+now works natively on x86_64 and PowerPC architectures, plus the game builds and runs
+in FreeBSD. SDL is now used for input, contexts, and sound, making the game a lot easier
+to port to new platforms and architectures than it was before. Security holes and other
+problems have been repaired. A more in-depth database of new features and working status
+on different platforms is in the <a href="?page=status">Status</a> section.</p>
 <h2>The future</h2>
-<p>Current goals for 1.34 (SVN is 1.33, last id build was 1.32) include:
-</p>
+<p>Current goals for 1.34 (SVN is 1.33, last id build was 1.32) include:</p>
 <ul>
-<li> OpenAL support</li>
-<li> Binaries for Windows XP and Mac OS X at release.</li>
-<li> Linux will just get source unless somebody feels like setting up a new installer.</li>
-<li> Removal of DirectX for MSVC and mingw builds.</li>
+	<li> OpenAL support</li>
+	<li> Binaries for Windows XP and Mac OS X at release.</li>
+	<li> Linux will just get source unless somebody feels like setting up a new installer.</li>
+	<li> Removal of DirectX for MSVC and MinGW builds.</li>
 </ul>
