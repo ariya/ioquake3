@@ -48,7 +48,7 @@
 		<td></td> <!--Notes-->
 	</tr>
 	<tr>
-		<td scope="row" rowspan="2">Max OSX</td> <!--OS-->
+		<td scope="row" rowspan="2">Max OS X</td> <!--OS-->
 		<td>xcode-G3</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
@@ -88,10 +88,12 @@
 		<td>Doesn't exist. Should we drop it?</td> <!--Notes-->
 	</tr>
 </table>
+
 <h2>Implemented Features</h2>
 <ul>
-	<li>SDL being used for sound, input. Though not on Windows.</li>
-	<li>Colors converted to BASH colors!111</li>
+	<li><a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a> being used
+	for input, OpenGL context management, and sound. Though not on Windows yet.</li>
+	<li>Colors converted to ANSI escape codes in terminal output.
+	(set <span class="shell">ttycon_ansicolor</span> to 1 to enable this.)</li>
 	<li>More supported platforms, see the table above.</li>
 </ul>
-<h2>Planned/Wanted features</h2>
