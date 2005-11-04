@@ -1,5 +1,5 @@
 <p>Quake 3 source code was released on August 20th by the fine folks at id Software. We thank them for that, and are continuing the mission of producing a Quake 3 that is without fault.</p>
-<img src="images/quake3.jpg" class="right" alt="Logo" />
+<img src="images/thenameofthisprojectis3.jpg" class="right" alt="Logo" />
 <h2>What's the point?</h2>
 <p>This project aims to build upon id Software's Quake 3 source code release.
 The source was released on August 20, 2005 under the GPL license. Since then, we have
