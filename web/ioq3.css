@@ -82,7 +82,8 @@ h3 {
 }
 
 img {
-	border: 0;
+	border: 1px solid black;
+	margin: .5em;
 }
 
 table {
@@ -109,6 +110,10 @@ td {
 	border-bottom: 1px dashed #777;
 	border-right: 1px dashed #777;
 	padding: .20em;
+}
+
+p {
+	text-align: justify;
 }
 
 .right {
