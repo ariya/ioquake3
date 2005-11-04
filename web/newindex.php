@@ -17,17 +17,17 @@ ob_start();
 <body>
 	<h1>icculus.org/quake3</h1>
 	<ul id="navigation">
-		<?php
-		foreach ($navlist as $file => $alias) {
-			echo "<li>";
-			if ($file != $page) { echo "<a href=\"?page=$file\">$alias</a>"; }
-			else { echo "<span class=\"current\">$alias</span>"; }
-			echo "</li>\n";
-		}
-		?>
+<?php
+foreach ($navlist as $file => $alias) {
+	echo "<li>";
+	if ($file != $page) { echo "<a href=\"?page=$file\">$alias</a>"; }
+	else { echo "<span class=\"current\">$alias</span>"; }
+	echo "</li>\n";
+}
+?>
 	</ul>
 	<div id="content">
-		<?php include_safe("$page.php"); ?>
+<?php include_safe("$page.php"); ?>
 	</div>
 	<div id="footer">
 		<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://icculus.org/quake3/ioq3.css">Valid CSS</a> |
