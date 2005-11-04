@@ -41,8 +41,8 @@ body, html {
 	margin-top: 0;
 	padding-left: 0;
 	padding-bottom: .2em;
-	border-left: 1px dashed #222;
-	border-bottom: 1px dashed #222;
+	border-left: 1px solid #222;
+	border-bottom: 1px solid #222;
 }
 
 #navigation li {
@@ -117,6 +117,8 @@ td {
 
 .shell {
 	font-family: "smoothansi", "Bitstream Vera Sans Mono", "Terminal", monospace;
+	color: black;
+	background-color: #8f8f8f;
 }
 
 .angryzakk {
