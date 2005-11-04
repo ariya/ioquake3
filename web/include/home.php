@@ -4,7 +4,7 @@
 <p>This project aims to build upon id Software's Quake 3 source code release.
 The source was released on August 20, 2005 under the GPL license. Since then, we have
 been feverishly cleaning up, fixing bugs, and adding features. Our eventual
-goal is to have created <strong>the</strong> Quake 3 source code distribution on which people
+goal is to have created <strong>the</strong> Quake 3 source code distribution upon which people
 base their games and mods. Our focus is initially
 to get the game working with our updates on Mac OS X, Windows, and Linux. Sane new features are also welcome. Modern graphical upgrades (bloom lighting, etc) would have to be disabled by default.
 </p>
