@@ -17,6 +17,7 @@ of new features, working status of platforms, and bugs is the <a href="?page=sta
 section.</p>
 <h2>The future</h2>
 <p>Current goals for 1.34 (SVN is 1.33, last id build was 1.32) include:
+</p>
 <UL>
 <LI> OpenAL support</LI>
 <LI> Binaries for Windows XP and Mac OS X at release.</LI>
