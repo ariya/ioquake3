@@ -53,8 +53,9 @@ to it and then send a notice to the mailing list about it. If you're really so l
 you can't do this, we would prefer you at least <a href="mailto:zakk@icculus.org">mail
 it to zakk@icculus.org</a> rather than not do anything at all.</p>
 
-<p>Please make it clear if the patch you're submitting for inclusion isn't yours, and point out where you found it and who authored it. This is so we know who to attribute <del>blame to when it horribly
-breaks things</del> credit to.</p>
+<p>Please make it clear if the patch you're submitting for inclusion isn't yours. Point
+out where you found it and who authored it. This is so we know who to attribute
+<del>blame to when it horribly breaks things</del> credit to.</p>
 
 <h2>Generating Patches</h2>
 <p>If you know how to code, but never made a patch before, that's okay. Here's the 10¢
