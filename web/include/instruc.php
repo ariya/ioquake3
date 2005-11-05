@@ -72,9 +72,6 @@ survival guide to generating patches.</p>
 			<li id="patch">Apply a patch <em class="shell">amazing_new_feature.patch</em>:<br />
 			<span class="shell">patch -p0 -i <em>amazing_new_feature.patch</em></span></li>
 		</ul>
-		<p>For more information on SVN take a look at the 
-		<a href="http://svnbook.red-bean.com/">SVN book</a> and the info pages for
-		<span class="shell">svn</span>.</p>
 	</li>
 	<li>
 		<h3>From a tarball or other release</h3>
@@ -89,7 +86,10 @@ survival guide to generating patches.</p>
 			<span class="shell">diff -Naur <em>olddir</em> <em>newdir</em> &gt; <em>amazing_new_features.patch</em></span></li>
 			<li>Applying a patch is the same as with SVN, see  <a href="#patch">above</a>.</li>
 		</ul>
-		<p>For more information on <span class="shell">diff</span> and <span class="shell">patch</span>,
-		read their man-pages.</p>
 	</li>
 </ul>
+<p>For more information on <span class="shell">diff</span>, <span class="shell">patch</span>,
+and <span class="shell">svn</span>, read their respective <span class="shell">man</span>
+and <span class="shell">info</span> pages. For a more in-depth guide on Subversion take
+a look at the <a href="http://svnbook.red-bean.com/"><acronym title="Subversion">SVN</acronym>
+Book</a>.</p>
