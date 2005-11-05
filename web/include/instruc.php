@@ -38,7 +38,8 @@
 			</li>
 		</ul>
 	</li>
-	<li>If everything has gone well, you should have a binary that works! If not, seek <a href="#">help</a>.</li>
+	<li>If everything has gone well, you should have a binary that works! If not, seek
+	help.</li>
 </ol>
 <h2>Pay your dues, contribute!</h2>
 <p>If you've come up with an improvement or fixed something, we'd love to hear about it!
@@ -52,9 +53,8 @@ to it and then send a notice to the mailing list about it. If you're really so l
 you can't do this, we would prefer you at least <a href="mailto:zakk@icculus.org">mail
 it to zakk@icculus.org</a> rather than not do anything at all.</p>
 
-<p>Please don't send in patches that you didn't create. You can feel free to alert people
-and discuss anything on the mailing list, but please <strong>only submit patches for
-inclusion if you are the original creator</strong>!</p>
+<p>Please make it clear if the patch you're submitting for inclusion isn't yours, and point out where you found it and who authored it. This is so we know who to attribute <del>blame to when it horribly
+breaks things</del> credit to.</p>
 
 <h2>Generating Patches</h2>
 <p>If you know how to code, but never made a patch before, that's okay. Here's the 10¢
