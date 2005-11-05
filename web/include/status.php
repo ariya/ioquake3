@@ -32,7 +32,13 @@
 		<td>gcc-ppc</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
-		<td></td> <!--Notes-->
+		<td>Altivec build has similar problems to OS X G4 build.</td> <!--Notes-->
+	</tr>
+	<tr>
+		<td>gcc-alpha</td> <!--Platform-->
+		<td>working</td> <!--Status-->
+		<td></td> <!--LKWR-->
+		<td>Dedicated server only with VM interpreter.</td> <!--Notes-->
 	</tr>
 	<tr>
 		<td scope="row" rowspan="2">Windows</td> <!--OS-->
@@ -43,8 +49,8 @@
 	</tr>
 	<tr>
 		<td>MSVC-x86</td> <!--Platform-->
-		<td>unknown</td> <!--Status-->
-		<td><a href="http://svn.icculus.org/quake3/trunk/?rev=180">180</a>ish?</td> <!--LKWR-->
+		<td>working</td> <!--Status-->
+		<td></td> <!--LKWR-->
 		<td></td> <!--Notes-->
 	</tr>
 	<tr>
@@ -61,6 +67,13 @@
 		<td>Client has severe graphical glitches.</td> <!--Notes-->
 	</tr>
 	<tr>
+		<td scope="row" rowspan="2">Max OS 9</td> <!--OS-->
+		<td>codewarrior?</td> <!--Platform-->
+		<td>broken</td> <!--Status-->
+		<td></td> <!--LKWR-->
+		<td>There is a section in q_platform.h, but no project files. Drop it?</td> <!--Notes-->
+	</tr>
+	<tr>
 		<td scope="row">FreeBSD</td> <!--OS-->
 		<td>gcc-x86</td> <!--Platform-->
 		<td>working</td> <!--Status-->
@@ -70,7 +83,7 @@
 	<tr>
 		<td scope="row" rowspan="2">Solaris</td> <!--OS-->
 		<td>gcc-x86</td> <!--Platform-->
-		<td>broken</td> <!--Status-->
+		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
 		<td></td> <!--Notes-->
 	</tr>
@@ -85,7 +98,7 @@
 		<td>cc-*</td> <!--Platform-->
 		<td>broken</td> <!--Status-->
 		<td></td> <!--LKWR-->
-		<td>Doesn't exist. Should we drop it?</td> <!--Notes-->
+		<td>Has a section in the Makefile, but nothing otherwise. Drop it?</td> <!--Notes-->
 	</tr>
 </table>
 
