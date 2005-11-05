@@ -16,7 +16,7 @@
 		<th scope="col">Notes</th>
 	</tr>
 	<tr>
-		<td scope="row" rowspan="3">Linux</td> <!--OS-->
+		<td scope="row" rowspan="4">Linux</td> <!--OS-->
 		<td>gcc-x86</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
@@ -67,7 +67,7 @@
 		<td>Client has severe graphical glitches.</td> <!--Notes-->
 	</tr>
 	<tr>
-		<td scope="row" rowspan="2">Max OS 9</td> <!--OS-->
+		<td scope="row">Max OS 9</td> <!--OS-->
 		<td>codewarrior?</td> <!--Platform-->
 		<td>broken</td> <!--Status-->
 		<td></td> <!--LKWR-->
