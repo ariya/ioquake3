@@ -17,7 +17,7 @@ header("Content-type: $content_type; charset=UTF-8");
 
 $navlist = array(
  "home" => "Home",
- "instruc" => "Instructions",
+ "help" => "Help",
  "status" => "Status"
 );
 
