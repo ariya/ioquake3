@@ -17,7 +17,6 @@ body, html {
 	background-color: transparent;
 	color: #4d4d4d;
 	border-top: 1px dashed #222;
-	padding-top: .3em;
 	font-size: .8em;
 	padding: .35em;
 }
@@ -98,7 +97,7 @@ caption {
 }
 
 th {
-	text-align:	left;
+	text-align: left;
 	border-bottom: 1px solid #666;
 	border-right: 1px solid #666;
 	padding: .5em;
