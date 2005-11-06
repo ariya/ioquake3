@@ -9,12 +9,11 @@ body, html {
 #content {
 	float: left;
 	clear: left;
-	padding: 1em;
+	width: 100%;
 }
 
 #footer {
 	clear: left;
-	background-color: transparent;
 	color: #4d4d4d;
 	border-top: 1px dashed #222;
 	font-size: .8em;
@@ -23,12 +22,10 @@ body, html {
 
 #footer a {
 	color: #4b4b4b;
-	background-color: transparent;
 }
 
 #footer a:hover {
 	color: black;
-	background-color: transparent;
 }
 
 #navigation {
@@ -51,14 +48,12 @@ body, html {
 
 :link, :visited {
 	color: black;
-	background-color: transparent;
 	font-weight: bold;
 	text-decoration: underline;
 }
 
 h1, :link:hover, :visited:hover {
 	color: maroon;
-	background-color: transparent;
 }
 
 h1 {
@@ -70,30 +65,29 @@ h1 {
 
 h2 {
 	color: #440000;
-	background-color: transparent;
 	font-size: 1.25em;
+	padding: 0 1em 0 1em;
 }
 
 h3 {
 	color: #440000;
-	background-color: transparent;
 	font-size: 1em;
-	margin: .5em 0 .5em 0;
+	margin: .5em 1em .5em 1em;
 }
 
 img {
 	border: 1px solid black;
-	margin: .5em;
+	margin: .5em 1em .5em .5em;
 }
 
 table {
 	border: none;
 	border-spacing: 0;
+	margin-left: 1em;
 }
 
 caption {
 	color: maroon;
-	background-color: transparent;
 	font-variant: small-caps;
 }
 
@@ -113,6 +107,7 @@ td {
 }
 
 p {
+	padding: 1em;
 	text-align: justify;
 }
 
