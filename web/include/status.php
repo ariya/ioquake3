@@ -89,7 +89,7 @@
 	</tr>
 	<tr>
 		<td>gcc-sparc</td> <!--Platform-->
-		<td>broken</td> <!--Status-->
+		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
 		<td></td> <!--Notes-->
 	</tr>
