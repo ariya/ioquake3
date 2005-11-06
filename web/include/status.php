@@ -101,6 +101,8 @@
 		<td>Has a section in the Makefile, but nothing otherwise. Drop it?</td> <!--Notes-->
 	</tr>
 </table>
+<p>You can keep an eye on the Subversion repository via the <a href="http://svn.icculus.org/quake3/trunk/">
+Web interface</a>.</p>
 
 <h2>Implemented Features</h2>
 <ul>
