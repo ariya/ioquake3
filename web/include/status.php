@@ -112,3 +112,5 @@ Web interface</a>.</p>
 	(set <span class="shell">ttycon_ansicolor</span> to 1 to enable this.)</li>
 	<li>More supported platforms, see the table above.</li>
 </ul>
+<h2>Punkbuster Support</h2>
+<p>Evenbalance's Punkbuster support can never be included with any open-source version of Quake 3 due to it being removed from the source before release, and the binary-only nature of its anti-cheating software.</p>
