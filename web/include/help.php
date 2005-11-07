@@ -15,6 +15,7 @@
 		<ul>
 			<li><h3>Linux and friends</h3>
 				<ol>
+					<li><A href="http://www.gentoo.org/">Gentoo</a> users can just <span class="shell">emerge quake3</span> to get a recent version of our subversion version.</li>
 					<li>Install Quake 3 for Linux using the latest point release
 					installer. While the Quake3 engine is Free Software, you
 					still need to copy over legal PK3s like before.</li>
