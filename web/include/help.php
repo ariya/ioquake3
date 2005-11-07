@@ -26,15 +26,16 @@
 					directories.)</li>
 					<li>Run <span class="shell">make</span>.</li>
 					<li>Set <span class="shell">$COPYDIR</span> to the directory
-					you installed Quake3 to	and make the copyfiles target.
+					you installed Quake3 to and make the copyfiles target.
 					Make sure you are changed to the owner of this path (probably
 					root).<br />
 					<span class="shell">COPYDIR="/opt/quake3" make copyfiles</span></li>
 				</ol>
 			</li>
 			<li><h3>OS X</h3>
-			        <p>Open <span class="shell">code/macosx/Quake3.pbproj</span> in XCode, press build. Enjoy!
-				</p>
+			  <p>Open <span class="shell">code/macosx/Quake3.pbproj</span> in
+				XCode, press build. Enjoy!</p>
+			</li>
 			<li><h3>Windows</h3>
 				<p>Building on Windows is slightly complicated. You can either
 				use Microsoft Visual C++ or MinGW. MinGW works better currently;
