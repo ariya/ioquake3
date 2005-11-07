@@ -72,7 +72,7 @@ h2 {
 h3 {
 	color: #440000;
 	font-size: 1em;
-	margin: .5em 0em .5em 0em;
+	margin: .5em 0 .5em 0;
 	padding: 0;
 }
 
@@ -104,11 +104,11 @@ td {
 	background-color: #8f8f8f;
 	border-bottom: 1px dashed #777;
 	border-right: 1px dashed #777;
-	padding: .20em;
+	padding: .20;
 }
 
 p {
-	margin-left: 1em;
+	margin: 0 1em 0 1em;
 	text-align: justify;
 }
 
