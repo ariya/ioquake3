@@ -41,15 +41,22 @@
 	<li>If everything has gone well, you should have a binary that works! If not, seek
 	help.</li>
 </ol>
-<h2>Something isn't working right, Heeeeeeeelp!</h2>
-<p>You have four choices for help, documentaton, the mailing list, the IRC channel, and bugzilla. There is some
-great documentation for Linux users at <a href="http://www.icculus.org/lgfaq/">http://www.icculus.org/lgfaq/</a>, and also at id's
-original page (though you should no-longer contact them for support) <a href="http://zerowing.idsoftware.com/linux/q3a/">
-http://zerowing.idsoftware.com/linux/q3a/</a>. Windows users and Mac users should just <a href="http://www.google.com/">google</a> their errors to check for pre-existant solutions. To subscribe to the mailing list send a blank e-mail to
-<a href="mailto:quake3-subscribe@icculus.org">quake3-subscribe@icculus.org</a>. Then address your e-mails to 
-<a href="mailto:quake3@icculus.org">quake3@icculus.org</a>. To join the irc channel, connect your client to
-<span class="shell">irc.freenode.net</span> <span class="shell">#icculus.org/quake3</span>. To file a bug report with 
-bugzilla, check out our bugzilla website at <a href="http://bugzilla.icculus.org/">http://bugzilla.icculus.org/</a>.</p>
+
+<h2>Something isn't working right. Heeeeeeeelp!</h2>
+<p>You have four choices for help: documentation, the mailing list, the IRC channel,
+and Bugzilla. There is some great documentation for Linux users at
+<a href="http://www.icculus.org/lgfaq/">http://www.icculus.org/lgfaq/</a>, and also at
+id's <a href="http://zerowing.idsoftware.com/linux/q3a/">original page</a> (though you
+should no-longer contact them for support)</a>. Windows users and Mac users should just
+<a href="http://www.google.com/">Google</a> their errors to check for preexisting solutions.
+To subscribe to the mailing list send a blank e-mail to
+<a href="mailto:quake3-subscribe@icculus.org">quake3-subscribe@icculus.org</a>.
+Address e-mails that you want to appear on the list to
+<a href="mailto:quake3@icculus.org">quake3@icculus.org</a>.
+To join the <acronym title="Interent Relay Chat">IRC</acronym> channel, connect your
+client to <span class="shell">irc.freenode.net</span> <span class="shell">#icculus.org/quake3</span>.
+To file a bug report with Bugzilla, check out our
+<a href="http://bugzilla.icculus.org/">Bugzilla website</a>.</p>
 
 <h2>Pay your dues, contribute!</h2>
 <p>If you've come up with an improvement or fixed something, we'd love to hear about it!
