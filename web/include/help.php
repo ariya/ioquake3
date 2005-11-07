@@ -32,6 +32,9 @@
 					<span class="shell">COPYDIR="/opt/quake3" make copyfiles</span></li>
 				</ol>
 			</li>
+			<li><h3>OS X</h3>
+			        <p>Open <span class="shell">code/macosx/Quake3.pbproj</span> in XCode, press build. Enjoy!
+				</p>
 			<li><h3>Windows</h3>
 				<p>Building on Windows is slightly complicated. You can either
 				use Microsoft Visual C++ or MinGW. MinGW works better currently;
