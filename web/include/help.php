@@ -18,7 +18,7 @@
 					<li><a href="http://www.gentoo.org/">Gentoo</a> users can
 					just <span class="shell">emerge quake3</span> to get a
 					recent snapshot of our Subversion repository.</li>
-					<li>Ludwig "Angst" Nussel works on this project and also provides rpms for SuSe Linux Enterprise Server:
+					<li>Ludwig "Angst" Nussel works on this project and also provides rpms for SUSE Linux Enterprise Server:
 					<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3</a>. Note that these are just the binaries, no scripts or kde/gnome files to start them. Ludwig also mentions that they should work on any glibc 2.3 system.</li>
 					<li>Install Quake 3 for Linux using the latest point release
 					installer. While the Quake3 engine is Free Software, you
