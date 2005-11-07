@@ -15,7 +15,7 @@
 		<ul>
 			<li><h3>Linux and friends</h3>
 				<ol>
-					<li>Ma href="http://www.gentoo.org/">Gentoo</a> users can
+					<li><a href="http://www.gentoo.org/">Gentoo</a> users can
 					just <span class="shell">emerge quake3</span> to get a
 					recent snapshot of our Subversion repository.</li>
 					<li>Install Quake 3 for Linux using the latest point release
