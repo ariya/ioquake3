@@ -47,7 +47,7 @@
 and Bugzilla. There is some great documentation for Linux users at
 <a href="http://www.icculus.org/lgfaq/">http://www.icculus.org/lgfaq/</a>, and also at
 id's <a href="http://zerowing.idsoftware.com/linux/q3a/">original page</a> (though you
-should no-longer contact them for support)</a>. Windows users and Mac users should just
+should no-longer contact them for support). Windows users and Mac users should just
 <a href="http://www.google.com/">Google</a> their errors to check for preexisting solutions.
 To subscribe to the mailing list send a blank e-mail to
 <a href="mailto:quake3-subscribe@icculus.org">quake3-subscribe@icculus.org</a>.
