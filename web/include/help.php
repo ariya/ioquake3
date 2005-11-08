@@ -18,8 +18,13 @@
 					<li><a href="http://www.gentoo.org/">Gentoo</a> users can
 					just <span class="shell">emerge quake3</span> to get a
 					recent snapshot of our Subversion repository.</li>
-					<li>Ludwig "Angst" Nussel works on this project and also provides rpms for SUSE Linux Enterprise Server:
-					<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3</a>. Note that these are just the binaries, no scripts or kde/gnome files to start them. Ludwig also mentions that they should work on any glibc 2.3 system.</li>
+					<li>Ludwig "Angst" Nussel works on this project and
+					also provides
+					<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
+					RPMs for SUSE Linux Enterprise Server.</a> Note that
+					these are just the binaries, no scripts or KDE/Gnome
+					files to start them. Ludwig also mentions that they
+					should work on any glibc 2.3 system.</li>
 					<li>Install Quake 3 for Linux using the latest point release
 					installer. While the Quake3 engine is Free Software, you
 					still need to copy over legal PK3s like before.</li>
@@ -31,10 +36,11 @@
 					you installed Quake3 to and make the copyfiles target.
 					Make sure you are changed to the owner of this path (probably
 					root).<br />
-					<span class="shell">COPYDIR="/opt/quake3" make copyfiles</span></li>
+					<span class="shell">COPYDIR="/opt/quake3" make copyfiles</span>
+					</li>
 				</ol>
 			</li>
-			<li><h3>OS X</h3>
+			<li><h3>Mac OS X</h3>
 			  <p>Open <span class="shell">code/macosx/Quake3.pbproj</span> in
 				XCode, press build. Enjoy!</p>
 			</li>
@@ -53,8 +59,8 @@
 
 <h2>Something isn't working right. Heeeeeeeelp!</h2>
 <p>You have four choices for help: documentation, the mailing list, the IRC channel,
-and Bugzilla. There is some great documentation for Linux users at
-<a href="http://www.icculus.org/lgfaq/">http://www.icculus.org/lgfaq/</a>, and also at
+and Bugzilla. There is some great documentation for Linux users at the
+<a href="http://www.icculus.org/lgfaq/">Linux Gamers' FAQ</a>, and also at
 id's <a href="http://zerowing.idsoftware.com/linux/q3a/">original page</a> (though you
 should no-longer contact them for support). Windows users and Mac users should just
 <a href="http://www.google.com/">Google</a> their errors to check for preexisting solutions.
