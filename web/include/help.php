@@ -1,7 +1,7 @@
 <h2>Using packages for your Linux Distribution</h2>
 <p>If you're lucky your distribution or someone else using it may have already
 done all of the work for you.</p>
-<h3>Gentoo</h3>za	
+<h3>Gentoo</h3>
 <p><a href="http://www.gentoo.org/">Gentoo</a> users can just <span class="shell">
 emerge quake3</span> to get a recent snapshot of our Subversion repository.</p>
 <p>Ludwig "Angst" Nussel works on this project and also provides
