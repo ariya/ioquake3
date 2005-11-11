@@ -12,11 +12,11 @@ done all of the work for you.</p>
 	</li>
 	<li>
 		<h3>SUSE</h3>
-		<p>Ludwig "Angst" Nussel works on this project and also provides
+		<p>Ludwig Nussel works on this project and also provides
 		<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
-		RPMs for SUSE Linux Enterprise Server.</a> Note that these are just the binaries,
-		no scripts or KDE/Gnome files to start them. Ludwig also mentions that the packages
-		should work on any glibc 2.3 system.</p>
+		RPMs for SUSE Linux Enterprise Server.</a> Note that these are just
+		the binaries, no scripts or KDE/Gnome launchers to start them. Ludwig also
+		mentions that the packages should work on any glibc 2.3 system.</p>
 	</li>
 </ul>
 
