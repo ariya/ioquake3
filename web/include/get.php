@@ -3,15 +3,22 @@ icculus.org/quake3 a few distributions or build it yourself from Subversion.</p>
 <h2>Using packages for your Linux Distribution</h2>
 <p>If you're lucky your distribution or someone else using it may have already
 done all of the work for you.</p>
-<h3>Gentoo</h3>
-<p><a href="http://www.gentoo.org/">Gentoo</a> users can just <span class="shell">
-emerge quake3</span> to get a recent snapshot of our Subversion repository.</p>
-<h3>SUSE</h3>
-<p>Ludwig "Angst" Nussel works on this project and also provides
-<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
-RPMs for SUSE Linux Enterprise Server.</a> Note that these are just the binaries,
-no scripts or KDE/Gnome files to start them. Ludwig also mentions that the packages
-should work on any glibc 2.3 system.</p>
+
+<ul>
+	<li>
+		<h3>Gentoo</h3>
+		<p><a href="http://www.gentoo.org/">Gentoo</a> users can just <span class="shell">
+		emerge quake3</span> to get a recent snapshot of our Subversion repository.</p>
+	</li>
+	<li>
+		<h3>SUSE</h3>
+		<p>Ludwig "Angst" Nussel works on this project and also provides
+		<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
+		RPMs for SUSE Linux Enterprise Server.</a> Note that these are just the binaries,
+		no scripts or KDE/Gnome files to start them. Ludwig also mentions that the packages
+		should work on any glibc 2.3 system.</p>
+	</li>
+</ul>
 
 <h2>Check out and build from Subversion</h2>
 <p>( This part assumes Windows users are using Cygwin. If you aren't,
