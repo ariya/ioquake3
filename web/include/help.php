@@ -1,3 +1,15 @@
+<h2>Using packages for your Linux Distribution</h2>
+<p>If you're lucky your distribution or someone else using it may have already
+done all of the work for you.</p>
+<h3>Gentoo</h3>za	
+<p><a href="http://www.gentoo.org/">Gentoo</a> users can just <span class="shell">
+emerge quake3</span> to get a recent snapshot of our Subversion repository.</p>
+<p>Ludwig "Angst" Nussel works on this project and also provides
+<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
+RPMs for SUSE Linux Enterprise Server.</a> Note that	these are just the binaries,
+no scripts or KDE/Gnome files to start them. Ludwig also mentions that the packages
+should work on any glibc 2.3 system.</p>
+
 <h2>Check out and build from Subversion</h2>
 <p>( This part assumes Windows users are using Cygwin. If you aren't,
 <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a> is a good client. )</p>
@@ -14,28 +26,20 @@
 	<li>Compile and install Quake 3:
 		<ul>
 			<li><h3>Linux and friends</h3>
+			<p>Everyone else can compile it themselves</p>
 				<ol>
-					<li><a href="http://www.gentoo.org/">Gentoo</a> users can
-					just <span class="shell">emerge quake3</span> to get a
-					recent snapshot of our Subversion repository.</li>
-					<li>Ludwig "Angst" Nussel works on this project and
-					also provides
-					<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
-					RPMs for SUSE Linux Enterprise Server.</a> Note that
-					these are just the binaries, no scripts or KDE/Gnome
-					files to start them. Ludwig also mentions that they
-					should work on any glibc 2.3 system.</li>
-					<li>Install Quake 3 for Linux using the latest point release
-					installer. While the Quake3 engine is Free Software, you
-					still need to copy over legal PK3s like before.</li>
-					<li>Change into the top level directory (it contains the
-					<span class="shell">ui</span> and <span class="shell">code</span>
-					directories.)</li>
+					<li>Install Quake 3 for Linux using the latest point
+					release installer. While the Quake3 engine is Free
+					Software, you still need to copy over legal PK3s like
+					before.</li>
+					<li>Change into the top level directory (it contains
+					the <span class="shell">ui</span> and
+					<span class="shell">code</span> directories.)</li>
 					<li>Run <span class="shell">make</span>.</li>
-					<li>Set <span class="shell">$COPYDIR</span> to the directory
-					you installed Quake3 to and make the copyfiles target.
-					Make sure you are changed to the owner of this path (probably
-					root).<br />
+					<li>Set <span class="shell">$COPYDIR</span> to the
+					directory you installed Quake3 to and make the copyfiles
+					target. Make sure you are changed to the owner of
+					this path (probably root).<br />
 					<span class="shell">COPYDIR="/opt/quake3" make copyfiles</span>
 					</li>
 				</ol>
@@ -64,10 +68,7 @@ and Bugzilla. There is some great documentation for Linux users at the
 id's <a href="http://zerowing.idsoftware.com/linux/q3a/">original page</a> (though you
 should no-longer contact them for support). Windows users and Mac users should just
 <a href="http://www.google.com/">Google</a> their errors to check for preexisting solutions.
-To subscribe to the mailing list send a blank e-mail to
-<a href="mailto:quake3-subscribe@icculus.org">quake3-subscribe@icculus.org</a>.
-Address e-mails that you want to appear on the list to
-<a href="mailto:quake3@icculus.org">quake3@icculus.org</a>.
+You can try asking on the <a href="?page=mailinglists">mailing list</a>.
 To join the <acronym title="Interent Relay Chat">IRC</acronym> channel, connect your
 client to <span class="shell">irc.freenode.net</span> <span class="shell">#icculus.org/quake3</span>.
 To file a bug report with Bugzilla, check out our
@@ -81,9 +82,10 @@ tested and at list sort-of understand what you're doing.</p>
 
 <p>The preferred way to get the ball rolling on a patch is to file a
 <a href="http://bugs.icculus.org">Bugzilla bug</a> for your request with the patch attached
-to it and then send a notice to the mailing list (send mail to <a href="mailto:quake3-subscribe@icculus.org">quake3-subscribe@icculus.org</a> to subscribe) about it. If you're really so lazy that
-you can't do this, we would prefer you at least <a href="mailto:zakk@icculus.org">mail
-it to zakk@icculus.org</a> rather than not do anything at all.</p>
+to it and then send a notice to the <a href="?page=mailinglists">mailing list</a>
+about it. If you're really so lazy that you can't do this, we would prefer you at
+least <a href="mailto:zakk@icculus.org">mail it to zakk@icculus.org</a> rather than
+not do anything at all.</p>
 
 <p>Please make it clear if the patch you're submitting for inclusion isn't yours. Point
 out where you found it and who authored it. This is so we know who to attribute

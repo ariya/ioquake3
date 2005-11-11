@@ -59,20 +59,21 @@ h1, :link:hover, :visited:hover {
 h1 {
 	float: left;
 	font-size: 1.75em;
-	padding-left: .5em;
+	padding-left: .25em;
 	margin-bottom: 0;
 }
 
 h2 {
 	color: #440000;
 	font-size: 1.25em;
-	padding: 0 .75em 0 .75em;
+	margin: .75em .5em .75em .5em;
+	padding: 0;
 }
 
 h3 {
 	color: #440000;
 	font-size: 1em;
-	margin: .5em 0 .5em 0;
+	margin: .5em .8em .5em .8em;
 	padding: 0;
 }
 
@@ -110,6 +111,10 @@ td {
 p {
 	margin: .5em 1em .5em 1em;
 	text-align: justify;
+}
+
+ul h3 {
+	margin-left: 0;
 }
 
 .right {

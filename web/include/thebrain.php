@@ -16,9 +16,10 @@ else {
 header("Content-type: $content_type; charset=UTF-8");
 
 $navlist = array(
- "home" => "Home",
- "help" => "Help",
- "status" => "Status"
+ "home"		=> "Home",
+ "help"		=> "Help",
+ "status" 		=> "Status",
+ "mailinglists" 	=> "Mailing Lists"
 );
 
 function include_safe($file) {
