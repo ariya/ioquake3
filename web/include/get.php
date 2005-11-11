@@ -21,8 +21,9 @@ done all of the work for you.</p>
 </ul>
 
 <h2>Check out and build from Subversion</h2>
-<p>( This part assumes Windows users are using Cygwin. If you aren't,
-<a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a> is a good client. )</p>
+<p><em>This part assumes Windows users are using <a href="http://www.cygwin.com">Cygwin</a>.
+If you aren't, <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a> is a good
+client.</em></p>
 <ol>
 	<li>Change into a directory that you want the tree to be kept in.</li>
 	<li>Check out the source tree:<br />
