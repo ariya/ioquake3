@@ -25,6 +25,7 @@ foreach ($navlist as $file => $alias) {
 	echo "</li>\n";
 }
 ?>
+		<li><a href="http://svn.icculus.org/quake3/trunk">Subvesion Web</a></li>
 	</ul>
 	<div id="content">
 <?php include_safe("$page.php"); ?>

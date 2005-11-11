@@ -19,7 +19,7 @@ For more help, send a blank email to
 All of the above information plus more will be sent to you.
 </p>
 <h3 class="shell">quake3-commits@icculus.org</h3>
-<p>There is also a read-only mailing list which tracks changes to the
+<p>There is also this read-only mailing list which tracks changes to the
 <acronym title="Subversion">SVN</acronym> tree. You'll be sent an email each time
 someone commits a change. This is not normally a high-volume list, but it certainly
 can be at times. The instructions for this list are identical to the instructions
