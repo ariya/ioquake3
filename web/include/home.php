@@ -30,8 +30,6 @@ on the <a href="?page=status">Status</a> section.</p>
 <p>Current goals for 1.34 (<acronym title="Subversion">SVN</acronym> is 1.33, the last
 id build was 1.32) include:</p>
 <ul>
-	<li><a href="http://www.openal.org/">OpenAL</a> support. This should make surround
-	sound possible.</li>
 	<li>Binaries for Windows XP and Mac OS X at release. Linux will just get a source
 	package unless somebody feels inclined to set up a new installer.</li>
 	<li>Remove DirectX from <acronym title="Microsoft Visual C++">MSVC</acronym>
