@@ -106,7 +106,8 @@ Web interface</a>.</p>
 
 <h2>Implemented Features</h2>
 <ul>
-	<li><a href="http://www.openal.org/">OpenAL</a> support for sound.</li>
+	<li><a href="http://www.openal.org/">OpenAL</a> support for sound. Surround
+	sound supported.</li>
 	<li><a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a> being used
 	for input, OpenGL context management, and sound. Though not on Windows yet.</li>
 	<li>Colors converted to ANSI escape codes in terminal output.
