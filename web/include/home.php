@@ -1,6 +1,8 @@
 <p>Quake 3 source code was released on August 20th by the fine folks at id Software.
 We thank them for that, and are continuing the mission of producing a Quake 3 that is
 without fault.</p>
+<p class="angryzakk">The Quake 3 engine is open source, this does <strong>not</strong> mean that
+Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
 <img src="images/thenameofthisprojectis3.jpg" class="right" alt="Logo" />
 
 <h2>What's the point?</h2>
