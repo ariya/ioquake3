@@ -49,9 +49,9 @@
 	</tr>
 	<tr>
 		<td>MSVC-x86</td> <!--Platform-->
-		<td>working</td> <!--Status-->
-		<td></td> <!--LKWR-->
-		<td></td> <!--Notes-->
+		<td>broken</td> <!--Status-->
+		<td>342</td> <!--LKWR-->
+		<td>Project needs updating for codec system and  OpenAL.</td> <!--Notes-->
 	</tr>
 	<tr>
 		<td scope="row" rowspan="2">Max OS X</td> <!--OS-->

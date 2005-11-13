@@ -34,7 +34,7 @@ client.</em></p>
 	(You can check out a specific revision with the -r option, like this:
 	<span class="shell">svn co svn://svn.icculus.org/quake3/trunk quake3 -r100</span>)
 	</li>
-	<li>Read the <a href="http://svn.icculus.org/*checkout*/quake3/trunk/i_o-q3-readme">readme</a>
+	<li>Read the <a href="http://svn.icculus.org/*checkout*/quake3/trunk/README">README</a>
 	file. Really. Do it.</li>
 	<li>Compile and install Quake 3:
 		<ul>
@@ -65,7 +65,7 @@ client.</em></p>
 				<p>Building on Windows is slightly complicated. You can either
 				use Microsoft Visual C++ or MinGW. MinGW works better currently;
 				both methods are described in the
-				<a href="http://svn.icculus.org/*checkout*/quake3/trunk/i_o-q3-readme">readme</a>
+				<a href="http://svn.icculus.org/*checkout*/quake3/trunk/README">README</a>
 				you already are supposed to have read.</p>
 			</li>
 		</ul>
