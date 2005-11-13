@@ -1,6 +1,6 @@
 <p>We have not yet had an official release. Nonetheless, you can still get
 icculus.org/quake3 a few distributions or build it yourself from Subversion.</p>
-<p><em>The Quake 3 engine is open source, this does <strong>not<strong> mean that
+<p><em>The Quake 3 engine is open source, this does <strong>not</strong> mean that
 Quake 3 Arena the game is free. You must purchase the game to use the data!</em></p>
 <h2>Using packages for your Linux Distribution</h2>
 <p>If you're lucky your distribution or someone else using it may have already
