@@ -33,7 +33,7 @@ id build was 1.32) include:</p>
 	<li>Binaries for Windows XP and Mac OS X at release. Linux will just get a source
 	package unless somebody feels inclined to set up a new installer.</li>
 </ul>
-<p>Goals for 1.35 include:</p<
+<p>Goals for 1.35 include:</p>
 <ul>
 	<li>Remove DirectX from <acronym title="Microsoft Visual C++">MSVC</acronym> and <a href="http://mingw.org" title="Minimalist GNU for Windows">MinGW</a> builds, in favor of <a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a>.</li>
 </ul>
