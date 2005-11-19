@@ -32,9 +32,10 @@ id build was 1.32) include:</p>
 <ul>
 	<li>Binaries for Windows XP and Mac OS X at release. Linux will just get a source
 	package unless somebody feels inclined to set up a new installer.</li>
-	<li>Remove DirectX from <acronym title="Microsoft Visual C++">MSVC</acronym>
-	and <a href="http://mingw.org" title="Minimalist GNU for Windows">MinGW</a> builds,
-	in favor of <a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a>.</li>
+</ul>
+<p>Goals for 1.35 include:</p<
+<ul>
+	<li>Remove DirectX from <acronym title="Microsoft Visual C++">MSVC</acronym> and <a href="http://mingw.org" title="Minimalist GNU for Windows">MinGW</a> builds, in favor of <a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a>.</li>
 </ul>
 <p>Other features such as improved graphics and IPv6 support will be focused on
 in later versions.</p>
