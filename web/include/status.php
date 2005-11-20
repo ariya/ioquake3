@@ -50,7 +50,7 @@
 	<tr>
 		<td>MSVC-x86</td> <!--Platform-->
 		<td>broken</td> <!--Status-->
-		<td>342</td> <!--LKWR-->
+		<td><a href="http://svn.icculus.org/quake3/trunk/?rev=342">342</a></td> <!--LKWR-->
 		<td>Project needs updating for codec system and  OpenAL.</td> <!--Notes-->
 	</tr>
 	<tr>
