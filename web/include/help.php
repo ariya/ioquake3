@@ -39,8 +39,8 @@ survival guide to generating patches.</p>
 		of the client itself. Once you've made a change in your checkout that is
 		not upstream, here is how you use it:</p>
 		<ul>
-			<li>Create a patch named <em class="shell">amazing_new_feature.patch</em>:</li>
-			<li><span class="shell">svn diff &gt; <em>amazing_new_feature.patch</em></span></li>
+			<li>Create a patch named <em class="shell">amazing_new_feature.patch</em>:<br />
+			<span class="shell">svn diff &gt; <em>amazing_new_feature.patch</em></span></li>
 			<li id="patch">Apply a patch <em class="shell">amazing_new_feature.patch</em>:<br />
 			<span class="shell">patch -p0 -i <em>amazing_new_feature.patch</em></span></li>
 		</ul>
