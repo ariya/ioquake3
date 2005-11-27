@@ -22,7 +22,7 @@ done all of the work for you.</p>
 	</li>
 	<li>
 		<h3>Ubuntu</h3>
-		<p>There are i686 <a href="hhttp://www.xs4all.nl/~bruijn9/quake3/breezy/">binaries
+		<p>There are i686 <a href="http://www.xs4all.nl/~bruijn9/quake3/breezy/">binaries
 		built on Ubuntu</a> made by Pascal de Bruijn. Untar this into /opt/
 		or whereever you keep weird isolated installs. There is a decent
 		chance these will work on most distributions, these are not
