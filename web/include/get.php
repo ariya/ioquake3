@@ -20,6 +20,14 @@ done all of the work for you.</p>
 		the binaries, no scripts or KDE/Gnome launchers to start them. Ludwig also
 		mentions that the packages should work on any glibc 2.3 system.</p>
 	</li>
+	<li>
+		<h3>Ubuntu</h3>
+		<p>There are i686 <a href="hhttp://www.xs4all.nl/~bruijn9/quake3/breezy/">binaries
+		built on Ubuntu</a> made by Pascal de Bruijn. Untar this into /opt/
+		or whereever you keep weird isolated installs. There is a decent
+		chance these will work on most distributions, these are not
+		<span class="shell">.deb</span>s.</p>
+	</li>
 </ul>
 
 <h2>Check out and build from Subversion</h2>
