@@ -74,9 +74,9 @@ client.</em></p>
 	<a href="?page=help">help</a>.</li>
 </ol>
 <h2>Point Release Installers</h2>
-<p>As of now, you still need to install the old point releases before this project
-because they contain updated <span class="shell">pk3</span> files. We mirror them
-for your convienience:</p>
+<p>The id software patches are still needed before installing
+this project because they contain updated <span class="shell">pk3</span>
+files. We mirror them for your convienience:</p>
 <ul>
 	<li><a href="http://filesingularity.timedoctor.org/linuxq3apoint-1.32b-3.x86.run">Linux</a></li>
 	<li><a href="http://filesingularity.timedoctor.org/q3pointrelease_132.exe">Windows</a></li>
