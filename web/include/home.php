@@ -21,6 +21,7 @@ Other platforms are a bonus. Sane new features are also welcome. Modern graphica
 As an Open-Source project we expect comments and criticism to go the either the maintainer
 <a href="mailto:zakk@timedoctor.org">zakk@timedoctor.org</a>, or more preferrably to the <a href="http://icculus.org/quake3/?page=mailinglists">mailing
 list</a>.
+</p>
 <h2>Progress</h2>
 <p>While a lot is left to be done, quite a few goals have been met already. Quake 3
 now works natively on x86-64 and PowerPC architectures, plus the game builds and runs
