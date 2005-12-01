@@ -67,13 +67,6 @@
 		<td>Client has severe graphical glitches.</td> <!--Notes-->
 	</tr>
 	<tr>
-		<td scope="row">Max OS 9</td> <!--OS-->
-		<td>codewarrior?</td> <!--Platform-->
-		<td>broken</td> <!--Status-->
-		<td></td> <!--LKWR-->
-		<td>Getting dropped unless anybody objects soon.</td> <!--Notes-->
-	</tr>
-	<tr>
 		<td scope="row">FreeBSD</td> <!--OS-->
 		<td>gcc-x86</td> <!--Platform-->
 		<td>working</td> <!--Status-->
