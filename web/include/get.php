@@ -1,7 +1,15 @@
 <p>We have not yet had an official release. Nonetheless, you can still get
-icculus.org/quake3 a few distributions or build it yourself from Subversion.</p>
+icculus.org/quake3 packaged for a few Linux distributions or build it yourself from Subversion.</p>
 <p class="angryzakk">The Quake 3 engine is open source, this does <strong>not</strong>
 mean that Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
+
+<h2>Prerequisites</h2>
+<ul>
+     <li><a href="http://libsdl.org/">SDL</a> is required, Linux users need development packages if they want to compile the game. You can optionally disable SDL in the Makefile but this configuration is currently untested.</li>
+     <li><a href="http://www.openal.org/">OpenAL</a> is required. It is optionally disable-able. Apple Mac OS X 10.4 comes with OpenAL.</li>
+     <li><a href="http://subversion.tigris.org/">Subversion</a> is used for acquiring our modified version of the id source code. If you're using a binary package, then you won't need this.</li>
+     <li>Apple Mac OS X users need X Code installed for gcc, and then most likely fink for subversion and other interesthing things.</li>
+</ul>
 
 <h2>Using packages for your Linux Distribution</h2>
 <p>If you're lucky your distribution or someone else using it may have already
