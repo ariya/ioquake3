@@ -74,7 +74,7 @@ client.</em></p>
 				</ol>
 			</li>
 			<li><h3>Mac OS X</h3>
-			  <p>In a terminal, type make in the quake 3 directory you've downloaded with subversion, then install the latest id patch for OS X (at the bottom of this page), then copy the resulting darwinquake3 binary in <span class="shell">code/unix/releaseppc/</span> to <span class="shell">/Applications/Quake3/Quake3.app/Contents/MacOS/Quake3/</span>. You'll need to copy your <span class="shell">pak0.pk3</span> from your Quake 3 cd-rom's <span class="shell">baseq3</span> directory to your <span class="shell">/Applications/Quake3/baseq3/</span> directory. Ditto for the Team Arena mission pack, though you'd be changing <span class="shell">baseq3</span> in the above example to <span class="shell">missionpack</span>.
+			  <p>In a terminal, type make in the quake 3 directory you've downloaded with subversion, then install the latest id patch for OS X (at the bottom of this page), then copy the resulting darwinquake3 binary in <span class="shell">code/unix/releaseppc/</span> to <span class="shell">/Applications/Quake3/Quake3.app/Contents/MacOS/Quake3</span>. You also need an /libSDL-1.2.0.dylib in that .app's MacOS directory. You'll need to copy your <span class="shell">pak0.pk3</span> from your Quake 3 cd-rom's <span class="shell">baseq3</span> directory to your <span class="shell">/Applications/Quake3/baseq3/</span> directory. Ditto for the Team Arena mission pack, though you'd be changing <span class="shell">baseq3</span> in the above example to <span class="shell">missionpack</span>.
 				</p>
 			</li>
 			<li><h3>Windows</h3>
