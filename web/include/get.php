@@ -8,7 +8,7 @@ mean that Quake 3 Arena the game is free. You must purchase the game to use the 
      <li><a href="http://libsdl.org/">SDL</a> is required, Linux users need development packages if they want to compile the game. You can optionally disable SDL in the Makefile but this configuration is currently untested.</li>
      <li><a href="http://www.openal.org/">OpenAL</a> is required. It is optionally disable-able. Apple Mac OS X 10.4 comes with OpenAL.</li>
      <li><a href="http://subversion.tigris.org/">Subversion</a> is used for acquiring our modified version of the id source code. If you're using a binary package, then you won't need this.</li>
-     <li>Apple Mac OS X users need X Code installed for gcc, and then most likely fink for subversion and other interesthing things.</li>
+     <li><a href="http://www.apple.com/">Apple Mac OS X</a> users need X Code installed for gcc, and <a href="http://metissian.com/projects/macosx/subversion/">subversion</a> and other interesting things.</li>
 </ul>
 
 <h2>Using packages for your Linux Distribution</h2>
@@ -74,8 +74,8 @@ client.</em></p>
 				</ol>
 			</li>
 			<li><h3>Mac OS X</h3>
-			  <p>Open <span class="shell">code/macosx/Quake3.pbproj</span> in
-				XCode, press build. Enjoy!</p>
+			  <p>In a terminal, type make in the quake 3 directory you've downloaded with subversion, then install the latest id patch for OS X (at the bottom of this page), then copy the resulting darwinquake3 binary in <span class="shell">code/unix/releaseppc/</span> to <span class="shell">/Applications/Quake3/Quake3.app/Contents/MacOS/Quake3/</span>. You'll need to copy your <span class="shell">pak0.pk3</span> from your Quake 3 cd-rom's <span class="shell">baseq3</span> directory to your <span class="shell">/Applications/Quake3/baseq3/</span> directory. Ditto for the Team Arena mission pack, though you'd be changing <span class="shell">baseq3</span> in the above example to <span class="shell">missionpack</span>.
+				</p>
 			</li>
 			<li><h3>Windows</h3>
 				<p>Building on Windows is slightly complicated. You can either
