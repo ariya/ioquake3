@@ -91,7 +91,7 @@ client.</em></p>
 				directory.</li>
 				<li>Ditto for the Team Arena mission pack, though
 				you would be changing <span class="shell">baseq3</span>
-				in the above example to <span class="shell">missionpack</span>.
+				in the above example to <span class="shell">missionpack</span>.</li>
 			</ol>
 			<p>After you've done all of that mess, you can double click
 			on the .app file, or change to <span class="shell">/Applications/Quake3/</span>
