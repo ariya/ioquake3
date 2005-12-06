@@ -6,7 +6,7 @@ id's <a href="http://zerowing.idsoftware.com/linux/q3a/">original page</a> (thou
 should no-longer contact them for support). Windows users and Mac users should just
 <a href="http://www.google.com/">Google</a> their errors to check for preexisting solutions.
 You can try asking on the <a href="?page=mailinglists">mailing list</a>.
-To join the <acronym title="Interent Relay Chat">IRC</acronym> channel, connect your
+To join the <acronym title="Internet Relay Chat">IRC</acronym> channel, connect your
 client to <span class="shell">irc.freenode.net</span> <span class="shell">#icculus.org/quake3</span>.
 To file a bug report with Bugzilla, check out our
 <a href="http://bugzilla.icculus.org/">Bugzilla website</a>.</p>

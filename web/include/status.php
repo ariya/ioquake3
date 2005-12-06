@@ -113,5 +113,5 @@ Web interface</a>.</p>
 be included with any open-source version of Quake 3 due to it being removed from the
 source-code before the release, and the binary-only nature of its anti-cheating software.
 </p>
-<p>While it is possible that someone could write an open-source equivilant of PunkBuster,
-it's not very feasable for a number of reasons.</p>
+<p>While it is possible that someone could write an open-source equivalent of PunkBuster,
+it's not very feasible for a number of reasons.</p>

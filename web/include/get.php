@@ -32,7 +32,7 @@ done all of the work for you.</p>
 		<h3>Ubuntu</h3>
 		<p>There are i686 <a href="http://www.xs4all.nl/~bruijn9/quake3/breezy/">binaries
 		built on Ubuntu</a> made by Pascal de Bruijn. Untar this into /opt/
-		or whereever you keep weird isolated installs. There is a decent
+		or where ever you keep weird isolated installs. There is a decent
 		chance these will work on most distributions, these are not
 		<span class="shell">.deb</span>s.</p>
 	</li>
@@ -79,7 +79,7 @@ client.</em></p>
 				the <span class="shell">ui</span> and
 				<span class="shell">code</span> directories.)</li>
 				<li>Run <span class="shell">make</span>.</li>
-				<li>Install the latest id patch for OS X</li>
+				<li>Install the latest point release for OS X.</li>
 				<li>Copy <span class="shell">darwinquake3</span>
 				in <span class="shell">code/unix/releaseppc/</span>
 				to <span class="shell">/Applications/Quake3/Quake3.app/Contents/MacOS/Quake3</span>.</li>
@@ -90,11 +90,12 @@ client.</em></p>
 				directory to your <span class="shell">/Applications/Quake3/baseq3</span>
 				directory.</li>
 				<li>Ditto for the Team Arena mission pack, though
-				you would be changing <span class="shell">baseq3</span>
-				in the above example to <span class="shell">missionpack</span>.</li>
+				you would be substituting <span class="shell">baseq3</span>
+				in the above example for <span class="shell">missionpack</span>.</li>
 			</ol>
-			<p>After you've done all of that mess, you can double click
-			on the .app file, or change to <span class="shell">/Applications/Quake3/</span>
+			<p>After you've done all of that, you can double click
+			on the <span class="shell">.app</span> file, or change to
+			the <span class="shell">/Applications/Quake3/</span> directory
 			in a terminal and run the binary.
 			</p>
 			</li>
@@ -113,7 +114,7 @@ client.</em></p>
 <h2>Point Release Installers</h2>
 <p>The id software patches are still needed before installing
 this project because they contain updated <span class="shell">pk3</span>
-files. We mirror them for your convienience:</p>
+files. We mirror them for your convenience:</p>
 <ul>
 	<li><a href="http://filesingularity.timedoctor.org/linuxq3apoint-1.32b-3.x86.run">Linux</a></li>
 	<li><a href="http://filesingularity.timedoctor.org/q3pointrelease_132.exe">Windows</a></li>
