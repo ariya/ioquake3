@@ -11,6 +11,7 @@ ob_start();
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta content="<?php echo $content_type; ?> charset=UTF-8" />
+	<meta name="description" content="Open Source Quake 3">
 	<title>icculus.org/quake3: <?php echo $navlist[$page]; ?></title>
 	<link rel="stylesheet" href="ioq3.css" type="text/css" />
 </head>
