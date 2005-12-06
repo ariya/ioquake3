@@ -19,8 +19,8 @@ $navlist = array(
  "home"		=> "Home",
  "get"		=> "Get It",
  "help"		=> "Help",
- "status" 		=> "Status",
- "mailinglists" 	=> "Mailing Lists"
+ "status" 	=> "Status",
+ "discuss"	=> "Discussion",
 );
 
 function include_safe($file) {

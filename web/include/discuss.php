@@ -1,4 +1,9 @@
-<h2>Mailing List Information</h2>
+<h2>Web Forums</h2>
+<p>We provide web forums to facilitate the desire for a place to discuss this project
+and seek help from peers online. Please be courteous!</p>
+<p><a href="http://boards.chatbear.com/quake3/">Enter the icculus.org/quake3 forums.</a></p>
+
+<h2>Mailing Lists</h2>
 <p>There are two mailing lists used by this project. Here's a description and instructions
 for each.</p>
 <h3 class="shell">quake3@icculus.org</h3>
