@@ -1,7 +1,7 @@
 <h2>Web Forums</h2>
 <p>We provide web forums to facilitate the desire for a place to discuss this project
 and seek help from peers online. Please be courteous!</p>
-<p><a href="http://boards.chatbear.com/quake3/">Enter the icculus.org/quake3 forums.</a>
+<p><a href="http://boards.chatbear.com/quake3/">Enter the icculus.org/quake3 forums.</a><br />
 If you need more technical help, or have a bug to report, please consult the mailing lists
 and Bugzilla.</p>
 
