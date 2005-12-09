@@ -5,8 +5,8 @@ and Bugzilla. There is some great documentation for Linux users at the
 id's <a href="http://zerowing.idsoftware.com/linux/q3a/">original page</a> (though you
 should no-longer contact them for support). Windows users and Mac users should just
 <a href="http://www.google.com/">Google</a> their errors to check for preexisting solutions.
-You can try asking on the <a href="?page=discuss">mailing list and/or
-<acronym title="Internet Relay Chat">IRC</acronym> channe.</a>. To file a bug report
+You can try asking on the <a href="?page=discuss">mailing list and
+<acronym title="Internet Relay Chat">IRC</acronym> channel.</a>. To file a bug report
 with Bugzilla, check out our <a href="http://bugzilla.icculus.org/">Bugzilla website</a>.</p>
 
 <h2>Pay your dues, contribute!</h2>
