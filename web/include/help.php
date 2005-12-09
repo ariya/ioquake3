@@ -5,11 +5,9 @@ and Bugzilla. There is some great documentation for Linux users at the
 id's <a href="http://zerowing.idsoftware.com/linux/q3a/">original page</a> (though you
 should no-longer contact them for support). Windows users and Mac users should just
 <a href="http://www.google.com/">Google</a> their errors to check for preexisting solutions.
-You can try asking on the <a href="?page=mailinglists">mailing list</a>.
-To join the <acronym title="Internet Relay Chat">IRC</acronym> channel, connect your
-client to <span class="shell">irc.freenode.net</span> <span class="shell">#icculus.org/quake3</span>.
-To file a bug report with Bugzilla, check out our
-<a href="http://bugzilla.icculus.org/">Bugzilla website</a>.</p>
+You can try asking on the <a href="?page=discuss">mailing list and/or
+<acronym title="Internet Relay Chat">IRC</acronym> channe.</a>. To file a bug report
+with Bugzilla, check out our <a href="http://bugzilla.icculus.org/">Bugzilla website</a>.</p>
 
 <h2>Pay your dues, contribute!</h2>
 <p>If you've come up with an improvement or fixed something, we'd love to hear about it!
@@ -19,7 +17,7 @@ tested and at list sort-of understand what you're doing.</p>
 
 <p>The preferred way to get the ball rolling on a patch is to file a
 <a href="http://bugs.icculus.org">Bugzilla bug</a> for your request with the patch attached
-to it and then send a notice to the <a href="?page=mailinglists">mailing list</a>
+to it and then send a notice to the <a href="?page=discuss">mailing list</a>
 about it. If you're really so lazy that you can't do this, we would prefer you at
 least <a href="mailto:zakk@icculus.org">mail it to zakk@icculus.org</a> rather than
 not do anything at all.</p>

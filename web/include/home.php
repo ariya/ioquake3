@@ -19,8 +19,8 @@ Other platforms are a bonus. Sane new features are also welcome. Modern graphica
 </p>
 <p>
 As an Open-Source project we expect comments and criticism to go the either the maintainer
-<a href="mailto:zakk@timedoctor.org">zakk@timedoctor.org</a>, or more preferably to the <a href="http://icculus.org/quake3/?page=mailinglists">mailing
-list</a>.
+<a href="mailto:zakk@timedoctor.org">zakk@timedoctor.org</a>, or more preferably
+to the <a href="http://icculus.org/quake3/?page=discuss">mailing list</a>.
 </p>
 <h2>Progress</h2>
 <p>While a lot is left to be done, quite a few goals have been met already. Quake 3
