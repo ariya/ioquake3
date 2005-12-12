@@ -49,9 +49,9 @@
 	</tr>
 	<tr>
 		<td>MSVC-x86</td> <!--Platform-->
-		<td>broken</td> <!--Status-->
-		<td><a href="http://svn.icculus.org/quake3/trunk/?rev=342">342</a></td> <!--LKWR-->
-		<td>Project needs updating for codec system and OpenAL.</td> <!--Notes-->
+		<td>working</td> <!--Status-->
+		<td></td> <!--LKWR-->
+		<td></td> <!--Notes-->
 	</tr>
 	<tr>
 		<td scope="row" rowspan="2">Max OS X</td> <!--OS-->
