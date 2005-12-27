@@ -26,7 +26,7 @@
 		<td>gcc-x86_64</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
-		<td>x86_64 JIT bytecode compiler disabled by default.</td> <!--Notes-->
+		<td>JIT bytecode compiler requires GNU as.</td> <!--Notes-->
 	</tr>
 	<tr>
 		<td>gcc-ppc</td> <!--Platform-->
