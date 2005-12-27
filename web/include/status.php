@@ -74,6 +74,13 @@
 		<td></td> <!--Notes-->
 	</tr>
 	<tr>
+		<td scope="row">NetBSD</td> <!--OS-->
+		<td>gcc-x86</td> <!--Platform-->
+		<td>working</td> <!--Status-->
+		<td></td> <!--LKWR-->
+		<td>Dedicated server only with native libs.</td> <!--Notes-->
+	</tr>
+	<tr>
 		<td scope="row" rowspan="2">Solaris</td> <!--OS-->
 		<td>gcc-x86</td> <!--Platform-->
 		<td>working</td> <!--Status-->
