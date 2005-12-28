@@ -24,7 +24,7 @@ to the <a href="http://icculus.org/quake3/?page=discuss">mailing list</a>.
 </p>
 <h2>Progress</h2>
 <p>While a lot is left to be done, quite a few goals have been met already. Quake 3
-now works naively on x86-64 and PowerPC architectures, plus the game builds and runs
+now works natively on x86-64 and PowerPC architectures, plus the game builds and runs
 on <a href="http://www.freebsd.org/">FreeBSD</a>.
 <a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a> is now used for input,
 OpenGL context management, and sound, making the game a lot easier to port to new platforms
