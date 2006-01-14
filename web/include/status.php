@@ -143,7 +143,7 @@ Web interface</a>.</p>
 	<li>
 	<h4>For 1.35+:</h4>
 	<ul>
-		<li>IPv6 support.</li>
+		<li><a href="http://en.wikipedia.org/wiki/IPv6" title="Internet Protocol version 6">IPv6</a> support.</li>
 		<li>Merge <a class="shell" href="http://svn.icculus.org/quake3/trunk/code/unix/unix_net.c?view=markup">
 		unix_net.c</a> and <a class="shell" href="http://svn.icculus.org/quake3/trunk/code/win32/win_net.c?view=markup">
 		win_net.c</a>.</li>
