@@ -115,6 +115,53 @@ Web interface</a>.</p>
 	<li>More supported platforms, see the table above.</li>
 </ul>
 
+<h2>The Future</h2>
+<h3>Release Criteria</h3>
+<p>Before a release can occur, the following must occur for each platform:</p>
+<ol>
+	<li>Testing of <em>Quake 3: Arena</em> single- and multi-player.</li>
+	<li>Testing of <em>Quake 3: Team Arena</em> single- and multi-player.</li>
+	<li>Testing of at least one other Quake 3 modification. Possibly
+	<a href="http://www.urbanterror.net/">Urban Terror</a>,
+	<a href="http://www.rq3.com/">Reaction Quake 3</a>, or any other popular
+	modification that puts the engine through it's paces.</li>
+	<li>An installer which include all up-to-date id <span class="shell">pak</span>
+	files, requires original CD-ROM. Users will need to copy the
+	<span class="shell">pak0.pk3</span> file themselves.</li>
+</ol>
+
+<h3>Roadmap</h3>
+<ul>
+	<li>
+	<h4>For 1.34:</h4>
+	<ul>
+		<li>Features implemented.</li>
+		<li>Meet release criteria (see above) for Win32, 32bit Linux, and
+		Mac OS X.</li>
+	</ul>
+	</li>
+	<li>
+	<h4>For 1.35+:</h4>
+	<ul>
+		<li>IPv6 support.</li>
+		<li>Merge <a class="shell" href="http://svn.icculus.org/quake3/trunk/code/unix/unix_net.c?view=markup">
+		unix_net.c</a> and <a class="shell" href="http://svn.icculus.org/quake3/trunk/code/win32/win_net.c?view=markup">
+		win_net.c</a>.</li>
+		<li>Replace Windows DirectX backend with
+		<a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a>.</li>
+	</ul>
+	</li>
+	<li>
+	<h4>For 1.39:</h4>
+	<ul>
+		<li>Four player split-screen.</li>
+	</ul>
+	</li>
+<ul>
+<p><em>Note: The above is a list of steps that <strong>remain to be completed</strong>,
+so the lists will get shorter as release approaches. Items already completed are
+not on the roadmap.</em></p>
+
 <h2>PunkBuster Support</h2>
 <p><a href="http://www.evenbalance.com/">Even Balance</a>'s Punkbuster support can never
 be included with any open-source version of Quake 3 due to it being removed from the

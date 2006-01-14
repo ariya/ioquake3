@@ -31,17 +31,3 @@ OpenGL context management, and sound, making the game a lot easier to port to ne
 and architectures than it was before. Security holes and other problems have been repaired.
 A more in-depth database of new features and working status on different platforms is
 on the <a href="?page=status">Status</a> section.</p>
-
-<h2>The future</h2>
-<p>Current goals for 1.34 (<acronym title="Subversion">SVN</acronym> is 1.33, the last
-id build was 1.32) include:</p>
-<ul>
-	<li>Binaries for Windows XP and Mac OS X at release. Linux will just get a source
-	package unless somebody feels inclined to set up a new installer.</li>
-</ul>
-<p>Goals for 1.35 include:</p>
-<ul>
-	<li>Remove DirectX from <acronym title="Microsoft Visual C++">MSVC</acronym> and <a href="http://mingw.org" title="Minimalist GNU for Windows">MinGW</a> builds, in favor of <a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a>.</li>
-</ul>
-<p>Other features such as improved graphics and IPv6 support will be focused on
-in later versions.</p>
