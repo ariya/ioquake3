@@ -157,7 +157,8 @@ Web interface</a>.</p>
 		<li>Four player split-screen.</li>
 	</ul>
 	</li>
-<ul>
+</ul>
+
 <p><em>Note: The above is a list of steps that <strong>remain to be completed</strong>,
 so the lists will get shorter as release approaches. Items already completed are
 not on the roadmap.</em></p>
