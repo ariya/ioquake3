@@ -125,7 +125,7 @@ Web interface</a>.</p>
 	<a href="http://www.urbanterror.net/">Urban Terror</a>,
 	<a href="http://www.rq3.com/">Reaction Quake 3</a>, or any other popular
 	modification that puts the engine through it's paces.</li>
-	<li>An installer which include all up-to-date id <span class="shell">pak</span>
+	<li>An installer which includes all up-to-date id <span class="shell">pak</span>
 	files, requires original CD-ROM. Users will need to copy the
 	<span class="shell">pak0.pk3</span> file themselves.</li>
 </ol>
