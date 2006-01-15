@@ -32,7 +32,7 @@
 		<td>gcc-ppc</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
-		<td>Altivec build has similar problems to OS X G4 build.</td> <!--Notes-->
+		<td>JIT compiler does not work.</td> <!--Notes-->
 	</tr>
 	<tr>
 		<td>gcc-alpha</td> <!--Platform-->
@@ -54,17 +54,23 @@
 		<td></td> <!--Notes-->
 	</tr>
 	<tr>
-		<td scope="row" rowspan="2">Max OS X</td> <!--OS-->
-		<td>xcode-G3</td> <!--Platform-->
+		<td scope="row" rowspan="3">Max OS X</td> <!--OS-->
+		<td>gcc-ppcG3</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
 		<td></td> <!--Notes-->
 	</tr>
 	<tr>
-		<td>xcode-G4</td> <!--Platform-->
+		<td>gcc-ppcG4</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
-		<td>Client has severe graphical glitches.</td> <!--Notes-->
+		<td>JIT compiler does not work.</td> <!--Notes-->
+	</tr>
+	<tr>
+		<td>gcc-x86</td> <!--Platform-->
+		<td>working</td> <!--Status-->
+		<td></td> <!--LKWR-->
+		<td></td> <!--Notes-->
 	</tr>
 	<tr>
 		<td scope="row">FreeBSD</td> <!--OS-->
