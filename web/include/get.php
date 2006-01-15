@@ -80,8 +80,8 @@ client.</em></p>
 				<span class="shell">code</span> directories.)</li>
 				<li>Run <span class="shell">make</span>.</li>
 				<li>Install the latest point release for OS X.</li>
-				<li>Copy <span class="shell">darwinquake3</span>
-				in <span class="shell">code/unix/releaseppc/</span>
+				<li>Copy <span class="shell">ioquake3.ppc</span>
+				in <span class="shell">build/release-darwin-ppc/</span>
 				to <span class="shell">/Applications/Quake3/Quake3.app/Contents/MacOS/Quake3</span>.</li>
 				<li>You need a libSDL-1.2.0.dylib in that .app's
 				MacOS directory.</li>

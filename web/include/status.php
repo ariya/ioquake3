@@ -97,7 +97,7 @@
 		<td>gcc-sparc</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
-		<td>Release build crashes.</td> <!--Notes-->
+		<td></td> <!--Notes-->
 	</tr>
 	<tr>
 		<td scope="row">IRIX</td> <!--OS-->
