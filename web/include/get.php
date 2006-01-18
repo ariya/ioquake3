@@ -33,12 +33,12 @@ done all of the work for you.</p>
 		<p>Firstly, we have packages for the i386 and amd64 versions of
 		Ubuntu and Debian Linux, thanks	to <a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/">
 		Bruno "Fuddl" Kleinert</a>.</p>
-			<ol>
+			<ul>
 				<li><a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/debian/unstable/">
 				Packages for Debian Linux.</a> These are intended for Debian unstable.</li>
 				<li><a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/ubuntu/breezy">
 				Packages for Ubuntu Linux.</a> These are intended for Ubuntu Breezy.</li>
-			</ol>
+			</ul>
 		<p>To install these, as root run <span class="shell">dpkg -i
 		<em>package.deb</em></span>.</p>
 		<p>There are also i686 <a href="http://www.xs4all.nl/~bruijn9/quake3/breezy/">binaries
