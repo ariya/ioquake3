@@ -31,7 +31,7 @@ done all of the work for you.</p>
 	<li>
 		<h3>Debian &amp; Ubuntu</h3>
 		<p>Firstly, we have packages for both Ubuntu and Debian Linux, thanks
-		are by <a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/">
+		to <a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/">
 		Bruno "Fuddl" Kleinert</a>.</p>
 			<ol>
 				<li><a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/debian/">
