@@ -97,6 +97,7 @@ caption {
 }
 
 th {
+	background-color: #777;
 	text-align: left;
 	border-bottom: 1px solid #666;
 	border-right: 1px solid #666;

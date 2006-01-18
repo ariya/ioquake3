@@ -29,7 +29,19 @@ done all of the work for you.</p>
 		mentions that the packages should work on any glibc 2.3 system.</p>
 	</li>
 	<li>
-		<h3>Ubuntu</h3>
+		<h3>Debian &amp; Ubuntu</h3>
+		<p>Firstly, we have packages for both Ubuntu and Debian Linux, thanks
+		are by <a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/">
+		Bruno "Fuddl" Kleinert</a>.</p>
+			<ol>
+				<li><a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/debian/">
+				Packages for Debian Linux.</a></li>
+				<li><a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/ubuntu/">
+				Packages for Ubuntu Linux.</a> These appear to work
+				for both Dapper and Breezy.</li>
+			</ol>
+		<p>To install these, as root run <span class="shell">dpkg -i
+		<em>package.deb</em></span>.</p>
 		<p>There are i686 <a href="http://www.xs4all.nl/~bruijn9/quake3/breezy/">binaries
 		built on Ubuntu</a> made by Pascal de Bruijn. Untar this into /opt/
 		or where ever you keep weird isolated installs. There is a decent
