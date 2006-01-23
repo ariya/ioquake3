@@ -38,7 +38,7 @@ done all of the work for you.</p>
 		<h3>Fedora Core, RHEL</h3>
 		<p>Ed "Sketch" Byrne has been so kind as to provide i386 RPMs for
 		<a href="http://www.openverse.com/quake3/"> Fedora Core 3, Fedora
-		Core 4, and RedHat Enterprise Linux 4</a> Read his
+		Core 4, and RedHat Enterprise Linux 4</a>. Be sure to read his
 		<a href="http://www.openverse.com/quake3/Readme.html">Readme</a>
 		to learn how to install it.</p>
 	</li>
