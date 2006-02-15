@@ -37,7 +37,7 @@ foreach ($navlist as $file => $alias) {
 echo $_SERVER['REQUEST_URI'];?>">Valid XHTML</a> |
 		<a href="http://icculus.org">icculus.org</a>
 		<br />
-		Website Design by <a href="http://floam.sh.nu" title="floam">Aaron Gyes</a>
+		Website designed and handled by <a href="http://floam.sh.nu" title="floam">Aaron Gyes</a>.
 	</div>
 </body>
 </html>
