@@ -89,7 +89,7 @@ client.</em></p>
 					the copyfiles target. Make sure you are
 					changed to the owner of	this path (probably
 					root).<br />
-					<tt>COPYDIR="/opt/quake3" make copyfiles<tt>
+					<tt>COPYDIR="/opt/quake3" make copyfiles</tt>
 					</li>
 				</ol>
 			</li>
