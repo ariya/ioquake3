@@ -142,7 +142,7 @@ Web interface</a>.</p>
 	<h4>For 1.34:</h4>
 	<ul>
 		<li>Features implemented, ready for release.</li>
-		<li>Meet release criteria (see above) for Win32, 32bit Linux, and
+		<li>Meet release criteria (see above) for Win32, Linux, and
 		Mac OS X.</li>
 	</ul>
 	</li>
