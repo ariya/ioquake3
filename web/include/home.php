@@ -3,7 +3,7 @@ We thank them for that, and are continuing the mission of producing a Quake 3 th
 without fault.</p>
 <p class="angryzakk">The Quake 3 engine is open source, this does <strong>not</strong> mean that
 Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
-<img src="images/thenameofthisprojectis3.jpg" class="right" alt="Logo" />
+<img src="images/quake3_logo_web.png" class="right" alt="Logo" />
 
 <h2>What's the point?</h2>
 <p>This project aims to build upon id Software's Quake 3 source code release. The source
