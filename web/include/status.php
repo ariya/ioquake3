@@ -26,7 +26,7 @@
 		<td>gcc-x86_64</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
-		<td>JIT bytecode compiler requires GNU as.</td> <!--Notes-->
+		<td>JIT bytecode compiler requires GNU <span class="shell">as</span>.</td> <!--Notes-->
 	</tr>
 	<tr>
 		<td>gcc-ppc</td> <!--Platform-->
