@@ -81,7 +81,7 @@ client.</em></p>
 					Software, you still need to copy over legal PK3s like
 					before.</li>
 					<li>Change into the top level directory (it contains
-					the <tt>ui<tt> and
+					the <tt>ui</tt> and
 					<tt>code</tt> directories.)</li>
 					<li>Run <tt>make</tt>.</li>
 					<li>Set <tt>$COPYDIR</tt> to the
