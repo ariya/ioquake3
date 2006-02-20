@@ -82,7 +82,7 @@ client.</em></p>
 					before.</li>
 					<li>Change into the top level directory (it contains
 					the <tt>ui<tt> and
-					<tt>code<tt> directories.)</li>
+					<tt>code</tt> directories.)</li>
 					<li>Run <tt>make</tt>.</li>
 					<li>Set <tt>$COPYDIR</tt> to the
 					directory you installed Quake3 to and make
