@@ -26,7 +26,7 @@
 		<td>gcc-x86_64</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
-		<td>JIT bytecode compiler requires GNU <span class="shell">as</span>.</td> <!--Notes-->
+		<td>JIT bytecode compiler requires GNU <tt>as</tt>.</td> <!--Notes-->
 	</tr>
 	<tr>
 		<td>gcc-ppc</td> <!--Platform-->
@@ -117,7 +117,7 @@ Web interface</a>.</p>
 	<li><a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a> being used
 	for input, OpenGL context management, and sound. Though not on Windows yet.</li>
 	<li>Colors converted to ANSI escape codes in terminal output.
-	(set <span class="shell">ttycon_ansicolor</span> to 1 to enable this.)</li>
+	(set <tt>ttycon_ansicolor</tt> to 1 to enable this.)</li>
 	<li>More supported platforms, see the table above.</li>
 </ul>
 
@@ -131,9 +131,9 @@ Web interface</a>.</p>
 	<a href="http://www.urbanterror.net/">Urban Terror</a>,
 	<a href="http://www.rq3.com/">Reaction Quake 3</a>, or any other popular
 	modification that puts the engine through it's paces.</li>
-	<li>An installer which includes all up-to-date id <span class="shell">pak</span>
+	<li>An installer which includes all up-to-date id <tt>pk3</tt>
 	files, requires original CD-ROM. Users will need to copy the
-	<span class="shell">pak0.pk3</span> file themselves.</li>
+	<tt>pak0.pk3</tt> file themselves.</li>
 </ol>
 
 <h3>Roadmap</h3>

@@ -30,10 +30,11 @@ All of the above information plus more will be sent to you.
 <acronym title="Subversion">SVN</acronym> tree. You'll be sent an email each time
 someone commits a change. This is not normally a high-volume list, but it certainly
 can be at times. The instructions for this list are identical to the instructions
-for regular list, just change the <span class="shell">quake3</span> part of the
-e-mail addresses to <span class="shell">quake3-commits</span>.</p>
+for regular list, just change the <tt>quake3</tt> part of the
+e-mail addresses to <tt>quake3-commits</tt>.</p>
 
 <h2 title="Internet Relay Chat">IRC</h2>
-<p>To join the <acronym title="Internet Relay Chat">IRC</acronym> channel, connect
-your client to <span class="shell">irc.freenode.net</span>
-<span class="shell">#icculus.org/quake3</span></p>
+<p>To join the <acronym title="Internet Relay Chat">IRC</acronym> channel, aim
+your client at <tt>#icculus.org/quake3</tt> on <tt>irc.freenode.net</tt>
+</p>
+

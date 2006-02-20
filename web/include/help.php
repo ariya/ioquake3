@@ -38,28 +38,28 @@ survival guide to generating patches.</p>
 		not upstream, here is how you use it:</p>
 		<ul>
 			<li>Create a patch named <em class="shell">amazing_new_feature.patch</em>:<br />
-			<span class="shell">svn diff &gt; <em>amazing_new_feature.patch</em></span></li>
+			<tt>svn diff &gt; <em>amazing_new_feature.patch</em></tt></li>
 			<li id="patch">Apply a patch <em class="shell">amazing_new_feature.patch</em>:<br />
-			<span class="shell">patch -p0 -i <em>amazing_new_feature.patch</em></span></li>
+			<tt>patch -p0 -i <em>amazing_new_feature.patch</em></tt></li>
 		</ul>
 	</li>
 	<li>
 		<h3>From a tarball or other release</h3>
 		<p>If you didn't get the source code via <acronym title="Subversion">SVN</acronym>,
 		or for some reason that doesn't work for your situations, here's how to generate
-		them using the tried-and-trusted <span class="shell">diff</span> tool between
+		them using the tried-and-trusted <tt>diff</tt> tool between
 		two files:</p>
 		<ul>
 			<li>Create a patch named <em class="shell">amazing_new_feature.patch</em> between <em class="shell">oldfile</em> and <em class="shell">newfile</em>:<br />
-			<span class="shell">diff -u <em>oldfile</em> <em>newfile</em> &gt; <em>amazing_new_feature.patch</em></span></li>
+			<tt>diff -u <em>oldfile</em> <em>newfile</em> &gt; <em>amazing_new_feature.patch</em></tt></li>
 			<li>Create a patch named <em class="shell">amazing_new_features.patch</em> between directory <em class="shell">olddir</em> and <em class="shell">newdir</em>:<br />
-			<span class="shell">diff -Naur <em>olddir</em> <em>newdir</em> &gt; <em>amazing_new_features.patch</em></span></li>
+			<tt>diff -Naur <em>olddir</em> <em>newdir</em> &gt; <em>amazing_new_features.patch</em></tt></li>
 			<li>Applying a patch is the same as with SVN, see  <a href="#patch">above</a>.</li>
 		</ul>
 	</li>
 </ul>
-<p>For more information on <span class="shell">diff</span>, <span class="shell">patch</span>,
-and <span class="shell">svn</span>, read their respective <span class="shell">man</span>
-and <span class="shell">info</span> pages. For a more in-depth guide on Subversion take
+<p>For more information on <tt>diff</tt>, <tt>patch</tt>,
+and <tt>svn</tt>, read their respective <tt>man</tt>
+and <tt>info</tt> pages. For a more in-depth guide on Subversion take
 a look at the <a href="http://svnbook.red-bean.com/"><acronym title="Subversion">SVN</acronym>
 Book</a>.</p>

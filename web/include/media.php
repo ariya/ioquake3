@@ -1,5 +1,5 @@
 <h2>Screenshots</h2>
-<p>Here be some screenshots of icculus.org in action on different platforms and games.</p>
+<p>Here be some screenshots of icculus.org/quake3 in action on different platforms and games.</p>
 <ul>
 	<li>
 		<h3>Quake 3 Arena</h3>

@@ -26,13 +26,13 @@ done all of the work for you.</p>
 				<li><a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/ubuntu/breezy">
 				Packages for Ubuntu Linux.</a> These are intended for Ubuntu Breezy.</li>
 			</ul>
-		<p>To install these, as root run <span class="shell">dpkg -i
-		<em>package.deb</em></span>.</p>
+		<p>To install these, as root run <tt>dpkg -i
+		<em>package.deb</em></tt>.</p>
 		<p>There are also i686 <a href="http://www.xs4all.nl/~bruijn9/quake3/breezy/">binaries
 		built on Ubuntu</a> made by Pascal de Bruijn. Untar this into /opt/
 		or where ever you keep weird isolated installs. There is a decent
 		chance these will work on most distributions, these are not
-		<span class="shell">.deb</span>s.</p>
+		<tt>.deb</tt>s.</p>
 	</li>
 	<li>
 		<h3>Fedora Core, RHEL</h3>
@@ -44,8 +44,8 @@ done all of the work for you.</p>
 	</li>
 	<li>
 		<h3>Gentoo</h3>
-		<p><a href="http://www.gentoo.org/">Gentoo</a> users can just <span class="shell">
-		emerge quake3</span> to get a recent snapshot of our Subversion repository.</p>
+		<p><a href="http://www.gentoo.org/">Gentoo</a> users can just <tt>
+		emerge quake3</tt> to get a recent snapshot of our Subversion repository.</p>
 	</li>
 	<li>
 		<h3>SUSE</h3>
@@ -64,10 +64,10 @@ client.</em></p>
 <ol>
 	<li>Change into a directory that you want the tree to be kept in.</li>
 	<li>Check out the source tree:<br />
-	<span class="shell">svn co svn://svn.icculus.org/quake3/trunk quake3</span>
+	<tt>svn co svn://svn.icculus.org/quake3/trunk quake3</tt>
 	<br />
 	(You can check out a specific revision with the -r option, like this:
-	<span class="shell">svn co svn://svn.icculus.org/quake3/trunk quake3 -r100</span>)
+	<tt>svn co svn://svn.icculus.org/quake3/trunk quake3 -r100</tt>)
 	</li>
 	<li>Read the <a href="http://svn.icculus.org/*checkout*/quake3/trunk/README">README</a>
 	file. Really. Do it.</li>
@@ -81,49 +81,51 @@ client.</em></p>
 					Software, you still need to copy over legal PK3s like
 					before.</li>
 					<li>Change into the top level directory (it contains
-					the <span class="shell">ui</span> and
-					<span class="shell">code</span> directories.)</li>
-					<li>Run <span class="shell">make</span>.</li>
-					<li>Set <span class="shell">$COPYDIR</span> to the
-					directory you installed Quake3 to and make the copyfiles
-					target. Make sure you are changed to the owner of
-					this path (probably root).<br />
-					<span class="shell">COPYDIR="/opt/quake3" make copyfiles</span>
+					the <tt>ui<tt> and
+					<tt>code<tt> directories.)</li>
+					<li>Run <tt>make</tt>.</li>
+					<li>Set <tt>$COPYDIR</tt> to the
+					directory you installed Quake3 to and make
+					the copyfiles target. Make sure you are
+					changed to the owner of	this path (probably
+					root).<br />
+					<tt>COPYDIR="/opt/quake3" make copyfiles<tt>
 					</li>
 				</ol>
 			</li>
 			<li><h3>Mac OS X</h3>
 			<ol>
 				<li>Change into the top level directory (it contains
-				the <span class="shell">ui</span> and
-				<span class="shell">code</span> directories.)</li>
-				<li>Run <span class="shell">make</span>.</li>
+				the <tt>ui</tt> and
+				<tt>code</tt> directories.)</li>
+				<li>Run <tt>make</tt>.</li>
 				<li>Install the latest point release for OS X.</li>
-				<li>Copy <span class="shell">ioquake3.ppc</span>
-				in <span class="shell">build/release-darwin-ppc/</span>
-				to <span class="shell">/Applications/Quake3/Quake3.app/Contents/MacOS/Quake3</span>.</li>
+				<li>Copy <tt>ioquake3.ppc</tt>
+				in <tt>build/release-darwin-ppc/</tt>
+				to <tt>/Applications/Quake3/Quake3.app/Contents/MacOS/Quake3</tt>.</li>
 				<li>You need a libSDL-1.2.0.dylib in that .app's
 				MacOS directory.</li>
-				<li>You need to copy your <span class="shell">pak0.pk3</span>
-				from your Quake	3 CD-ROM's <span class="shell">/baseq3</span>
-				directory to your <span class="shell">/Applications/Quake3/baseq3</span>
+				<li>You need to copy your <tt>pak0.pk3</tt>
+				from your Quake	3 CD-ROM's <tt>/baseq3</tt>
+				directory to your <tt>/Applications/Quake3/baseq3</tt>
 				directory.</li>
 				<li>Ditto for the Team Arena mission pack, though
-				you would be substituting <span class="shell">baseq3</span>
-				in the above example for <span class="shell">missionpack</span>.</li>
+				you would be substituting <tt>baseq3</tt>
+				in the above example for <tt>missionpack</tt>.</li>
 			</ol>
 			<p>After you've done all of that, you can double click
-			on the <span class="shell">.app</span> file, or change to
-			the <span class="shell">/Applications/Quake3/</span> directory
-			in a terminal and run the binary.
+			on the <tt>.app</tt> file, or change to
+			the <tt>/Applications/Quake3/</tt> directory in a terminal
+			and run the binary.
 			</p>
 			</li>
 			<li><h3>Windows</h3>
-				<p>Building on Windows is slightly complicated. You can either
-				use Microsoft Visual C++ or MinGW. MinGW works better currently;
-				both methods are described in the
+				<p>Building on Windows is slightly complicated.
+				You can either use Microsoft Visual C++ or MinGW.
+				MinGW works better currently; both methods are described
+				in the
 				<a href="http://svn.icculus.org/*checkout*/quake3/trunk/README">README</a>
-				you already are supposed to have read.</p>
+				that you already are supposed to have read.</p>
 			</li>
 		</ul>
 	</li>
@@ -132,7 +134,7 @@ client.</em></p>
 </ol>
 <h2>Point Release Installers</h2>
 <p>The id software patches are still needed before installing
-this project because they contain updated <span class="shell">pk3</span>
+this project because they contain updated <tt>.pk3</tt>
 files. We mirror them for your convenience:</p>
 <ul>
 	<li><a href="http://filesingularity.timedoctor.org/linuxq3apoint-1.32b-3.x86.run">Linux</a></li>

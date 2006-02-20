@@ -125,7 +125,7 @@ ul h3 {
 	float: right;
 }
 
-.shell {
+tt, .shell {
 	font-family: "smoothansi", "Bitstream Vera Sans Mono", "Terminal", monospace;
 }
 
