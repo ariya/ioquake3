@@ -48,12 +48,12 @@ done all of the work for you.</p>
 		emerge quake3</tt> to get a recent snapshot of our Subversion repository.</p>
 	</li>
 	<li>
-		<h3>SUSE</h3>
-		<p>Ludwig Nussel works on this project and also provides
+		<h3>Linux installer</h3>
+		<p>Ludwig "Angst" Nussel works on this project and provides
 		<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
-		RPMs for SUSE Linux Enterprise Server.</a> Note that these are just
-		the binaries, no scripts or KDE/Gnome launchers to start them. Ludwig also
-		mentions that the packages should work on any glibc 2.3 system.</p>
+		installers and <tt>RPM</tt> packages</a>. The installers are based upon
+		loki-setup, and the <tt>RPM</tt> packages should work on any glibc
+		2.3 distribution.</p>
 	</li>
 </ul>
 
