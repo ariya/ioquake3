@@ -2,7 +2,7 @@ body, html {
 	font-family: "Trebuchet MS", "Bitstream Vera Sans", sans-serif;
 	font-size: 10pt;
 	color: black;
-	background-color: #888;
+	background-color: #888888;
 	margin: 0;
 }
 
@@ -15,7 +15,7 @@ body, html {
 #footer {
 	clear: left;
 	color: #4d4d4d;
-	border-top: 1px dashed #222;
+	border-top: 1px dashed #222222;
 	font-size: .8em;
 	padding: .35em;
 }
@@ -34,13 +34,13 @@ body, html {
 	float: right;
 	list-style: none;
 	display: inline;
-	background-color: #aaa;
+	background-color: #aaaaaa;
 	color: black;
 	margin-top: 0;
 	padding-left: 0;
 	padding-bottom: .2em;
-	border-left: 1px solid #222;
-	border-bottom: 1px solid #222;
+	border-left: 1px solid #222222;
+	border-bottom: 1px solid #222222;
 }
 
 #navigation li {
@@ -97,18 +97,18 @@ caption {
 }
 
 th {
-	background-color: #777;
+	background-color: #777777;
 	text-align: left;
-	border-bottom: 1px solid #666;
-	border-right: 1px solid #666;
+	border-bottom: 1px solid #666666;
+	border-right: 1px solid #666666;
 	padding: .5em;
 }
 
 td {
 	color: black;
 	background-color: #8f8f8f;
-	border-bottom: 1px dashed #777;
-	border-right: 1px dashed #777;
+	border-bottom: 1px dashed #777777;
+	border-right: 1px dashed #777777;
 	padding: .2em;
 }
 
@@ -131,7 +131,7 @@ tt, .shell {
 
 .angryzakk {
 	color: black;
-	background-color: #aaa;
+	background-color: #aaaaaa;
 	font-style: italic;
 	font-size: 1.2em;
 }
