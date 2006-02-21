@@ -14,6 +14,7 @@ ob_start();
 	<meta name="description" content="Open Source Quake 3" />
 	<title>icculus.org/quake3: <?php echo $navlist[$page]; ?></title>
 	<link rel="stylesheet" href="ioq3.css" type="text/css" />
+	<link rel="icon" type="image/png" href="images/icon.png"/>
 </head>
 <body>
 	<h1>icculus.org/quake3</h1>
