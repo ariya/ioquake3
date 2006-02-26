@@ -54,7 +54,7 @@
 		<td></td> <!--Notes-->
 	</tr>
 	<tr>
-		<td scope="row" rowspan="3">Max OS X</td> <!--OS-->
+		<td scope="row" rowspan="3">Mac OS X</td> <!--OS-->
 		<td>gcc-ppcG3</td> <!--Platform-->
 		<td>working</td> <!--Status-->
 		<td></td> <!--LKWR-->
