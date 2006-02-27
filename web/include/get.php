@@ -1,20 +1,24 @@
 <p>We have not yet had an official release. Nonetheless, you can still get
-icculus.org/quake3 packaged for a few Linux distributions or build it yourself from Subversion.</p>
+icculus.org/quake3 packaged for a few Operating Systems or build it yourself from Subversion.</p>
 <p class="angryzakk">The Quake 3 engine is open source, this does <strong>not</strong>
 mean that Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
 
 <h2>Prerequisites</h2>
 <ul>
-     <li><a href="http://libsdl.org/">SDL</a> is required, Linux users need development packages if they want to compile the game. You can optionally disable SDL in the Makefile but this configuration is currently untested.</li>
-     <li><a href="http://www.openal.org/">OpenAL</a> is required. It is optionally disable-able. Apple Mac OS X 10.4 comes with OpenAL.</li>
+     <li><a href="http://libsdl.org/">SDL</a> is required (everywhere but Windows), Linux users need development packages if they want to compile the game. You can optionally disable SDL in the Makefile but this configuration is currently untested.</li>
+     <li><a href="http://www.openal.org/">OpenAL</a> is optionally disable-able. Apple Mac OS X 10.4 comes with OpenAL.</li>
      <li><a href="http://subversion.tigris.org/">Subversion</a> is used for acquiring our modified version of the id source code. If you're using a binary package, then you won't need this.</li>
      <li><a href="http://www.apple.com/">Apple Mac OS X</a> users need X Code installed for gcc, and <a href="http://metissian.com/projects/macosx/subversion/">subversion</a> and other interesting things.</li>
 </ul>
 
-<h2>Using packages for your Linux Distribution</h2>
-<p>If you're lucky your distribution or someone else using it may have already
+<h2>Using packages for your Operating System</h2>
+<p>If you're lucky your Operating System provider or someone else using it may have already
 done all of the work for you.</p>
 <ul>
+<li>
+		<h3>Windows</h3>
+		<p>There is a Windows installer by Philip Nelson <a href="http://www.timedoctor.org/~zakk/ioquake3_setup.exe">here</a>.</p>
+</li>
 <li>
 		<h3>Debian &amp; Ubuntu</h3>
 		<p>Firstly, we have packages for the i386 and amd64 versions of
