@@ -17,7 +17,8 @@ done all of the work for you.</p>
 <ul>
 <li>
 		<h3>Windows</h3>
-		<p>There is a Windows installer by <a href="mailto:phatfil@optusnet.com.au">Philip Nelson</a> <a href="http://www.timedoctor.org/~zakk/ioquake3_setup.exe">here</a>.</p>
+		<p>There is a <a href="http://www.timedoctor.org/~zakk/ioquake3_setup.exe">
+		Windows installer</a> by <a href="mailto:phatfil@optusnet.com.au">Philip Nelson</a>.</p>
 </li>
 <li>
 		<h3>Debian &amp; Ubuntu</h3>
