@@ -1,12 +1,12 @@
 <?php
-switch ($_POST[$agree]) {
-	case "I Agree":
+switch ($_GET[$agree]) {
+	case FALSE:
 		$html = "<h2>KEINE DATEN FÜR SIE!</h2>
 			 <p>You'll need to agree to the EULA if you want the
 			 updated data.</p>"; //nazigerman for "NO DATA FOR YOU!"
 		break;
 		
-	case "I Do Not Agree":
+	case TRUE:
 		$html = "<h2>You agree!</h2>
 			 <p>Good for you. Click here to download a tarball
 			 with the new data <tt>pk3</tt>s.</p>";
@@ -239,12 +239,12 @@ ORAL AGREEMENTS, PROPOSALS OR UNDERSTANDINGS, AND ANY OTHER
 COMMUNICATIONS BETWEEN ID AND YOU RELATING TO THE SUBJECT MATTER OF
 THIS AGREEMENT.
 </pre>
-<form method=\"post\" action=\"?page=getdata\">
-	<input type=\"submit\" id=\"agree\" value=\"I Agree\" />
-	<input type=\"submit\" id=\"agree\" value=\"I Do Not Agree\" />
+<form method=\"post\" action=\"?page=getdata&agree=1\">
+	<input type=\"submit\" id=\"agree\"/>
 </form>
-</p>
-";
+<form method=\"post\" action=\"?page=getdata&agree=0\">
+	<input type=\"submit\" id=\"agree\"/>
+</form>
+</p>";
 }
 echo $html;
-echo $_POST[$agree];
