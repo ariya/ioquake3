@@ -1,5 +1,5 @@
 <?php
-switch ($_POST($agree)) {
+switch ($_POST[$agree]) {
 	case "I Agree":
 		$html = "<h2>KEINE DATEN FÜR SIE!</h2>
 			 <p>You'll need to agree to the EULA if you want the
