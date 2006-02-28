@@ -17,7 +17,7 @@ switch ($_POST[$agree]) {
 <p>In order for us to distribute the updated pk3 files from id
 Software, you need to agree to their EULA. Read through it, then click Agree if
 you Agree.</p>
-
+<p>
 <pre>
 LIMITED USE SOFTWARE LICENSE AGREEMENT
 
@@ -243,6 +243,8 @@ THIS AGREEMENT.
 	<input type=\"submit\" id=\"agree\" value=\"I Agree\" />
 	<input type=\"submit\" id=\"agree\" value=\"I Do Not Agree\" />
 </form>
+</p>
 ";
 }
 echo $html;
+echo $_POST[$agree];
