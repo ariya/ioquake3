@@ -14,7 +14,7 @@ switch ($_POST[$agree]) {
 	default:
 		$html = "
 <h2>EULA</h2>
-</p>In order for us to distribute the updated pk3 files from id
+<p>In order for us to distribute the updated pk3 files from id
 Software, you need to agree to their EULA. Read through it, then click Agree if
 you Agree.</p>
 
