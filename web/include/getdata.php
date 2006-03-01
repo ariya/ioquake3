@@ -10,11 +10,11 @@ switch ($_POST['agree']) {
 	case "I Agree":
 		$html = "<h2>You agree!</h2>
 			 <p>Good for you. You can 
-			 <a href=\"http://www.icculus.org/~zakk/quake3-latest-pk3s.zip\">
+			 <a rel=\"nofollow\" href=\"http://www.icculus.org/~zakk/quake3-latest-pk3s.zip\">
 			 download the <tt>pk3</tt>s</a> now.</p>";
 		break;
 	default:
-		$html = "<p>Newer <tt>pk3</tt> files from id pointrelease patches
+		$html = "<p>Newer <tt>pk3</tt> files from id point release patches
 		are required to play Quake III: Arena on icculus.org/quake3.</p>
 <h2>EULA</h2>
 <p>In order for us to distribute the updated pk3 files from id

@@ -79,12 +79,10 @@ client.</em></p>
 	<li>Compile and install Quake 3:
 		<ul>
 			<li><h3>Linux and friends</h3>
-			<p>Everyone else can compile it themselves</p>
+			<p>We all can compile it ourselves:</p>
 				<ol>
-					<li>Install Quake 3 for Linux using the latest point
-					release installer. While the Quake3 engine is Free
-					Software, you still need to copy over legal PK3s like
-					before.</li>
+					<li>Agree to the EULA and grab the <a href="?page=getdata">
+					updated <tt>pk3</tt> files.</li>
 					<li>Change into the top level directory (it contains
 					the <tt>ui</tt> and
 					<tt>code</tt> directories.)</li>
@@ -144,5 +142,4 @@ files. We mirror them for your convenience:</p>
 <ul>
 	<li><a href="http://filesingularity.timedoctor.org/linuxq3apoint-1.32b-3.x86.run">Linux</a></li>
 	<li><a href="http://filesingularity.timedoctor.org/q3pointrelease_132.exe">Windows</a></li>
-	<li><a href="http://filesingularity.timedoctor.org/Quake3-132.pkg.sit">Macintosh</a></li>
 </ul>
