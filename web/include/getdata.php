@@ -1,6 +1,18 @@
 <?php
-switch ($_GET[$agree]) {
-	case NULL:
+echo $_POST['agree'];
+switch ($_POST['agree']) {
+	case "0":
+		$html = "<h2>KEINE DATEN FÜR SIE!</h2>
+			 <p>You'll need to agree to the EULA if you want the
+			 updated data.</p>"; //nazi-german for "NO DATA FOR YOU!"
+		break;
+		
+	case "1":
+		$html = "<h2>You agree!</h2>
+			 <p>Good for you. Click here to download a tarball
+			 with the new data <tt>pk3</tt>s.</p>";
+		break;
+	default:
 		$html = "
 <h2>EULA</h2>
 <p>In order for us to distribute the updated pk3 files from id
@@ -228,23 +240,10 @@ ORAL AGREEMENTS, PROPOSALS OR UNDERSTANDINGS, AND ANY OTHER
 COMMUNICATIONS BETWEEN ID AND YOU RELATING TO THE SUBJECT MATTER OF
 THIS AGREEMENT.
 </pre>
-<form method=\"post\" action=\"?page=getdata&agree=1\">
-	<input type=\"submit\" id=\"agree\"/>
-</form>
-<form method=\"post\" action=\"?page=getdata&agree=0\">
-	<input type=\"submit\" id=\"agree\"/>
+<form method=\"post\" action=\"?page=getdata\">
+	<input type=\"submit\" id=\"agree\" name=\"agree\" value=\"I Agree\" />
+	<input type=\"submit\" id=\"agree\" name=\"agree\" value=\"I Do Not Agree\" />
 </form>
 </p>";
-	case FALSE:
-		$html = "<h2>KEINE DATEN FÜR SIE!</h2>
-			 <p>You'll need to agree to the EULA if you want the
-			 updated data.</p>"; //nazigerman for "NO DATA FOR YOU!"
-		break;
-		
-	case TRUE:
-		$html = "<h2>You agree!</h2>
-			 <p>Good for you. Click here to download a tarball
-			 with the new data <tt>pk3</tt>s.</p>";
-		break;
 }
 echo $html;
