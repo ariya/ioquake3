@@ -1,19 +1,21 @@
 <?php
-echo $_POST['agree'];
+
 switch ($_POST['agree']) {
-	case "0":
+	case "I Agree":
 		$html = "<h2>KEINE DATEN FÜR SIE!</h2>
 			 <p>You'll need to agree to the EULA if you want the
 			 updated data.</p>"; //nazi-german for "NO DATA FOR YOU!"
 		break;
 		
-	case "1":
+	case "I Do Not Agree":
 		$html = "<h2>You agree!</h2>
-			 <p>Good for you. Click here to download a tarball
-			 with the new data <tt>pk3</tt>s.</p>";
+			 <p>Good for you. You can 
+			 <a href=\"http://www.icculus.org/~zakk/quake3-latest-pk3s.zip\">
+			 download the <tt>pk3</tt>s</a> now.</p>";
 		break;
 	default:
-		$html = "
+		$html = "<p>Newer <tt>pk3</tt> files from id pointrelease patches
+		are required to play Quake III: Arena on icculus.org/quake3.</p>
 <h2>EULA</h2>
 <p>In order for us to distribute the updated pk3 files from id
 Software, you need to agree to their EULA. Read through it, then click Agree if
