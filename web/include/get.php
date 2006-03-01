@@ -82,7 +82,8 @@ client.</em></p>
 			<p>We all can compile it ourselves:</p>
 				<ol>
 					<li>Agree to the EULA and grab the <a href="?page=getdata">
-					updated <tt>pk3</tt> files</a>.</li>
+					updated <tt>pk3</tt> files</a>. Extract it to someplace like
+					<tt>/opt/quake3</tt>.</li>
 					<li>Change into the top level directory (it contains
 					the <tt>ui</tt> and
 					<tt>code</tt> directories.)</li>
