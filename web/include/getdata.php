@@ -146,11 +146,11 @@ trademarks and all other conceivable intellectual property rights related
 to the Software are owned by ID and are protected by United States
 copyright laws, international treaty provisions and all applicable law,
 such as the Lanham Act.  You must treat the Software like any other
-copyrighted material, as required by 17 U.S.C., � et seq. and other
+copyrighted material, as required by 17 U.S.C., et seq. and other
 applicable law. You agree to use your best efforts to see that any user
 of the Software licensed hereunder complies with this Agreement.  You
 agree that you are receiving a copy of the Software by license only
-and not by sale and that the \"first sale\" doctrine of 17 U.S.C. �
+and not by sale and that the \"first sale\" doctrine of 17 U.S.C.
 does not apply to your receipt or use of the Software.
 
 
