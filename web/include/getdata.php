@@ -1,13 +1,13 @@
 <?php
 
 switch ($_POST['agree']) {
-	case "I Agree":
+	case "I Do Not Agree":
 		$html = "<h2>KEINE DATEN FÜR SIE!</h2>
 			 <p>You'll need to agree to the EULA if you want the
 			 updated data.</p>"; //nazi-german for "NO DATA FOR YOU!"
 		break;
 		
-	case "I Do Not Agree":
+	case "I Agree":
 		$html = "<h2>You agree!</h2>
 			 <p>Good for you. You can 
 			 <a href=\"http://www.icculus.org/~zakk/quake3-latest-pk3s.zip\">
