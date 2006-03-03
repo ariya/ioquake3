@@ -242,8 +242,10 @@ COMMUNICATIONS BETWEEN ID AND YOU RELATING TO THE SUBJECT MATTER OF
 THIS AGREEMENT.
 </pre>
 <form method=\"post\" action=\"?page=getdata\">
-	<input type=\"submit\" name=\"agree\" value=\"I Agree\" />
-	<input type=\"submit\" name=\"agree\" value=\"I Do Not Agree\" />
+	<fieldset>
+		<input type=\"submit\" name=\"agree\" value=\"I Agree\" />
+		<input type=\"submit\" name=\"agree\" value=\"I Do Not Agree\" />
+	</fieldset>
 </form>";
 }
 echo $html;
