@@ -128,21 +128,6 @@ Web interface</a>.</p>
 	<li>Lots and lots of bug fixes.</li>
 </ul>
 
- * SDL backend for unix-like operating systems
-* OpenAL sound API support (multiple speaker support and better sound
-quality)
-* Full x86_64 support on Linux
-* MinGW compilation support on Windows and cross compilation support on Linux
-* AVI video capture of demos
-* Much improved console autocompletion
-* Persistent console history
-* Colorized terminal output
-* Optional Ogg Vorbis support
-* Much improved QVM tools
-* Support for various esoteric operating systems (see
-http://icculus.org/quake3/?page=status)
-* Many, many bug fixes
-
 <h2>The Future</h2>
 <h3>Release Criteria</h3>
 <p>Before a release can occur, the following must occur for each platform:</p>
