@@ -115,14 +115,14 @@ Web interface</a>.</p>
 	<li><a href="http://www.openal.org/">OpenAL</a> support for sound. Surround
 	sound supported.</li>
 	<li>AVI video capture of demos.</li>
-	<li>Ogg Vorbis support.</li>
+	<li><a href="http://www.vorbis.com/">Ogg Vorbis</a> support.</li>
 	<li><a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a> being used
 	for input, OpenGL context management, and sound. Though not on Windows yet.</li>
 	<li>Colors converted to ANSI escape codes in terminal output.
 	(set <tt>ttycon_ansicolor</tt> to 1 to enable this.)</li>
 	<li>Much improved autocompletion on the console.</li>
 	<li>Persistent console history.</li>
-	<li>Much improved QVM tools.</li>
+	<li>Much improved <acronym title="Quake Virtual Machine">QVM</acronym> tools.</li>
 	<li>MinGW compilation support on Windows and cross-compilation on Linux</li>
 	<li>More supported platforms, see the table above.</li>
 	<li>Lots and lots of bug fixes.</li>
@@ -138,8 +138,8 @@ Web interface</a>.</p>
 	<a href="http://www.urbanterror.net/">Urban Terror</a>,
 	<a href="http://www.rq3.com/">Reaction Quake 3</a>, or any other popular
 	modification that puts the engine through it's paces.</li>
-	<li>An installer which includes all up-to-date id <tt>pk3</tt>
-	files, requires original CD-ROM. Users will need to copy the
+	<li>An installer which includes all <a href="?page=getdata">to-date id <tt>pk3</tt>
+	files</a>, requires original CD-ROM. Users might need to copy the
 	<tt>pak0.pk3</tt> file themselves.</li>
 </ol>
 

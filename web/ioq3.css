@@ -112,7 +112,7 @@ td {
 	padding: .2em;
 }
 
-p {
+form, pre, p {
 	margin: .5em 1em .5em 1em;
 	text-align: justify;
 }
