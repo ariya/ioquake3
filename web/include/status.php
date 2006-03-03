@@ -114,12 +114,34 @@ Web interface</a>.</p>
 <ul>
 	<li><a href="http://www.openal.org/">OpenAL</a> support for sound. Surround
 	sound supported.</li>
+	<li>AVI video capture of demos.</li>
+	<li>Ogg Vorbis support.</li>
 	<li><a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a> being used
 	for input, OpenGL context management, and sound. Though not on Windows yet.</li>
 	<li>Colors converted to ANSI escape codes in terminal output.
 	(set <tt>ttycon_ansicolor</tt> to 1 to enable this.)</li>
+	<li>Much improved autocompletion on the console.</li>
+	<li>Persistent console history.</li>
+	<li>Much improved QVM tools.</li>
+	<li>MinGW compilation support on Windows and cross-compilation on Linux</li>
 	<li>More supported platforms, see the table above.</li>
+	<li>Lots and lots of bug fixes.</li>
 </ul>
+
+ * SDL backend for unix-like operating systems
+* OpenAL sound API support (multiple speaker support and better sound
+quality)
+* Full x86_64 support on Linux
+* MinGW compilation support on Windows and cross compilation support on Linux
+* AVI video capture of demos
+* Much improved console autocompletion
+* Persistent console history
+* Colorized terminal output
+* Optional Ogg Vorbis support
+* Much improved QVM tools
+* Support for various esoteric operating systems (see
+http://icculus.org/quake3/?page=status)
+* Many, many bug fixes
 
 <h2>The Future</h2>
 <h3>Release Criteria</h3>
