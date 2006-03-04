@@ -145,11 +145,11 @@ trademarks and all other conceivable intellectual property rights related
 to the Software are owned by ID and are protected by United States
 copyright laws, international treaty provisions and all applicable law,
 such as the Lanham Act.  You must treat the Software like any other
-copyrighted material, as required by 17 U.S.C., et seq. and other
+copyrighted material, as required by 17 U.S.C., §101 et seq. and other
 applicable law. You agree to use your best efforts to see that any user
 of the Software licensed hereunder complies with this Agreement.  You
 agree that you are receiving a copy of the Software by license only
-and not by sale and that the \"first sale\" doctrine of 17 U.S.C.
+and not by sale and that the \"first sale\" doctrine of 17 U.S.C. §109
 does not apply to your receipt or use of the Software.
 
 
@@ -202,7 +202,7 @@ Section 6. shall survive cancellation or termination of this Agreement.
 7.         U.S. Government Restricted Rights. To the extent applicable,
 the United States Government shall only have those rights to use the
 Software as expressly stated and expressly limited and restricted in
-this Agreement, as provided in 48 C.F.R. Ё 227.7201 through 227.7204,
+this Agreement, as provided in 48 C.F.R. §§ 227.7201 through 227.7204,
 inclusive.
 
 
