@@ -27,7 +27,7 @@ else
 				$err = "Failed to grab news item: $err";
 				break;
 			}
-			echo "<h3>" . $item['title'] . "-" . $item['postdate'] . "</h3>\n<p>" . $item['text'] . "</p>"
+			echo "<h3>" . $item['title'] . "-" . $item['postdate'] . "</h3>\n<p>" . $item['text'] . "</p>";
 		}
 	}
 }
