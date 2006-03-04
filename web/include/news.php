@@ -2,24 +2,25 @@
 require("/webspace/icculus.org/news/IcculusNews.php");
 
 $id = $_GET['id'];
-if (empty($_GET['news_index'])) { $news_index = 0; }
+if (empty($_GET['news_index']))
+	$news_index = false;
+else
+	$news_index = $_GET['news_index'];
 $news_queue = 2;
-$news_item_count = 5;
+$news_item_max = 5;
 
 if ($err = news_login($sock, 'localhost', 263, NULL, NULL, $news_queue))
 	$err = "Failed to log in: $err";
 else
 {
-	if (isset($id))
-	{
-		$digestarray[] = array( 'id' => $id );
-	}
-
-	else if ($err = news_digest($sock, $digestarray, false, $news_item_count))
+	if ($err = news_digest($sock, $digestarray, $news_index, $news_item_max))
 	{
 		$err = "Failed to get news digest: $err";
 	}
-
+	
+	$current_post = 0;
+	$news_item_count = count($digestarray);
+	
 	if (!isset($err))
 	{
 		foreach($digestarray as $digestItem)
@@ -29,24 +30,17 @@ else
 				$err = "Failed to grab news item: $err";
 				break;
 			}
-			echo "<h3>" . $item['title'] . "-" . $item['postdate'] . "</h3>\n<p>" . $item['text'] . "</p>";
+			echo "<h3>" . $item['title'] . " - <em>" . date("F j, Y", strtotime($item['postdate'])) . "</em></h3>\n<p>" . $item['text'] . "</p>";
+			if ($current_post++ == $news_item_count - 1)
+				$lastid = $digestItem['id'];
+			}
 		}
-		
-		$post_count = count($digestarray);
-		
-		if ($news_index != 0)
-		{
-			$ncount = ($news_index - $news_item_count);
-			if ($ncount == 0) { unset($ncount); }
-			echo "<a class=\"floater right\" href=\"?page=news&amp;news_index=" . $ncount . "\">Newer&rarr;</a>";
-		}
-		if ($post_count == $news_item_count) {
-			$ncount = ($news_index + $news_item_count);
-			if ($ncount == 0) { unset($ncount); }
-			echo "<a class=\"floater left\" href=\"?page=news&amp;news_index=" . $ncount . "\">&larr;Older</a>";
-}
-
-	}
+		echo "<p>";
+		if ($news_item_count == $news_item_max)
+			echo "<a class=\"left\" href=\"?page=news&amp;news_index=$lastid\">&larr;Backpedal</a>";
+		if ($news_index != false)
+			echo "<a class=\"right\" href=\"?page=news\">To Newest&rarr;</a>";
+		echo "</p>";
 }
 
 news_logout($sock);

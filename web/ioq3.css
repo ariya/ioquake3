@@ -10,11 +10,13 @@ body, html {
 	float: left;
 	clear: left;
 	width: 100%;
+	padding-bottom: .2em;
 }
 
 #footer {
 	clear: left;
 	color: #4d4d4d;
+	margin-top: .2em;
 	border-top: 1px dashed #222222;
 	font-size: .8em;
 	padding: .35em;
@@ -123,6 +125,10 @@ ul h3 {
 
 .right {
 	float: right;
+}
+
+.left {
+	float: left;
 }
 
 tt, .shell {

@@ -34,8 +34,7 @@ foreach ($navlist as $file => $alias) {
 	</div>
 	<div id="footer">
 		<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://icculus.org/quake3/ioq3.css&amp;warning=0">Valid CSS</a> |
-		<a href="http://validator.w3.org/check?uri=http://icculus.org<?php
-echo $_SERVER['REQUEST_URI'];?>">Valid XHTML</a> |
+		<a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a> |
 		<a href="http://icculus.org">icculus.org</a>
 		<br />
 		Website designed and handled by <a href="http://floam.sh.nu" title="floam">Aaron Gyes</a>.
