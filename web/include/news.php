@@ -15,7 +15,7 @@ else
 		$digestarray[] = array( 'id' => $id );
 	}
 
-	else if ($err = news_digest($sock, $digestarray, $news_index, $news_item_count))
+	else if ($err = news_digest($sock, $digestarray, false, $news_item_count))
 	{
 		$err = "Failed to get news digest: $err";
 	}
