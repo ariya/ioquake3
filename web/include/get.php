@@ -3,24 +3,35 @@ icculus.org/quake3 packaged for a few Operating Systems or build it yourself fro
 <p class="angryzakk">The Quake 3 engine is open source, this does <strong>not</strong>
 mean that Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
 
-<h2>Prerequisites</h2>
+<h2>Sanctioned Installers</h2>
+<p>We have provided installers for the most popular platforms icculus.org/quake3
+supports. These have been tested, and if they do not work you can report bugs to us
+about them.</p>
 <ul>
-     <li><a href="http://libsdl.org/">SDL</a> is required (everywhere but Windows), Linux users need development packages if they want to compile the game. You can optionally disable SDL in the Makefile but this configuration is currently untested.</li>
-     <li><a href="http://www.openal.org/">OpenAL</a> is optionally disable-able. Apple Mac OS X 10.4 comes with OpenAL.</li>
-     <li><a href="http://subversion.tigris.org/">Subversion</a> is used for acquiring our modified version of the id source code. If you're using a binary package, then you won't need this.</li>
-     <li><a href="http://www.apple.com/">Apple Mac OS X</a> users need X Code installed for gcc, and <a href="http://metissian.com/projects/macosx/subversion/">subversion</a> and other interesting things.</li>
-</ul>
-
-<h2>Using packages for your Operating System</h2>
-<p>If you're lucky your Operating System provider or someone else using it may have already
-done all of the work for you.</p>
-<ul>
-<li>
+	<li>
 		<h3>Windows</h3>
 		<p>There is a <a href="http://www.timedoctor.org/~zakk/ioquake3_setup.exe">
 		Windows installer</a> by <a href="mailto:phatfil@optusnet.com.au">Philip Nelson</a>.</p>
-</li>
-<li>
+	</li>
+	<li>
+		<h3>Linux installer</h3>
+		<p>Ludwig "Angst" Nussel works on this project and provides
+		<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
+		installers and <tt>RPM</tt> packages</a>. The installers are based upon
+		loki-setup, and the <tt>RPM</tt> packages should work on any glibc
+		2.3 distribution.</p>
+	</li>
+	<li>
+		<h3>Mac OS X (Intel &amp; Power)</h3>
+		<p>Coming soon.</p>
+	</li>
+</ul>
+<h2>Using packages for your Operating System</h2>
+<p>If you're lucky your Operating System provider or someone else using it may have already
+done all of the work for you. Please report problems with these to those who are
+guilty.</p>
+<ul>
+	<li>
 		<h3>Debian &amp; Ubuntu</h3>
 		<p>Firstly, we have packages for the i386 and amd64 versions of
 		Ubuntu and Debian Linux, thanks	to <a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/">
@@ -53,16 +64,16 @@ done all of the work for you.</p>
 		emerge quake3</tt> to get a recent snapshot of our Subversion repository.</p>
 	</li>
 	<li>
-		<h3>Linux installer</h3>
-		<p>Ludwig "Angst" Nussel works on this project and provides
-		<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
-		installers and <tt>RPM</tt> packages</a>. The installers are based upon
-		loki-setup, and the <tt>RPM</tt> packages should work on any glibc
-		2.3 distribution.</p>
-	</li>
 </ul>
 
 <h2>Check out and build from Subversion</h2>
+<h3>Prerequisites</h3>
+<ul>
+     <li><a href="http://libsdl.org/">SDL</a> is required (everywhere but Windows), Linux users need development packages if they want to compile the game. You can optionally disable SDL in the Makefile but this configuration is currently untested.</li>
+     <li><a href="http://www.openal.org/">OpenAL</a> is optionally disable-able. Apple Mac OS X 10.4 comes with OpenAL.</li>
+     <li><a href="http://subversion.tigris.org/">Subversion</a> is used for acquiring our modified version of the id source code. If you're using a binary package, then you won't need this.</li>
+     <li><a href="http://www.apple.com/">Apple Mac OS X</a> users need X Code installed for gcc, and <a href="http://metissian.com/projects/macosx/subversion/">subversion</a> and other interesting things.</li>
+</ul>
 <p><em>This part assumes Windows users are using <a href="http://www.cygwin.com">Cygwin</a>.
 If you aren't, <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a> is a good
 client.</em></p>
