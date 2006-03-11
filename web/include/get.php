@@ -63,7 +63,6 @@ guilty.</p>
 		<p><a href="http://www.gentoo.org/">Gentoo</a> users can just <tt>
 		emerge quake3</tt> to get a recent snapshot of our Subversion repository.</p>
 	</li>
-	<li>
 </ul>
 
 <h2>Check out and build from Subversion</h2>
