@@ -14,12 +14,10 @@ about them.</p>
 		Windows installer</a> by <a href="mailto:phatfil@optusnet.com.au">Philip Nelson</a>.</p>
 	</li>
 	<li>
-		<h3>Linux installer</h3>
-		<p>Ludwig "Angst" Nussel works on this project and provides
-		<a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
-		installers and <tt>RPM</tt> packages</a>. The installers are based upon
-		loki-setup, and the <tt>RPM</tt> packages should work on any glibc
-		2.3 distribution.</p>
+		<h3>Linux (x86, x86_64, PPC)</h3>
+		<p><a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
+		Installers for Linux</a> are provided by Lugwig Nussel, a developer of
+		this project at. The installers are based upon loki-setup.</p>
 	</li>
 	<li>
 		<h3>Mac OS X (Intel &amp; Power)</h3>
