@@ -14,10 +14,10 @@ about them.</p>
 		Windows installer</a> by <a href="mailto:phatfil@optusnet.com.au">Philip Nelson</a>.</p>
 	</li>
 	<li>
-		<h3>Linux (x86, x86_64, PPC)</h3>
+		<h3>Linux (x86, x86_64, ppc)</h3>
 		<p><a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
-		Installers for Linux</a> are provided by Lugwig Nussel, a developer of
-		this project at. The installers are based upon loki-setup.</p>
+		Installers for Linux</a> are provided by Ludwig Nussel, a developer of
+		this project. The installers are based upon loki-setup.</p>
 	</li>
 	<li>
 		<h3>Mac OS X (Intel &amp; Power)</h3>
