@@ -1,3 +1,4 @@
+
 <p class="angryzakk">The Quake 3 engine is open source, this does <strong>not</strong>
 mean that Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
 <h2>Get icculus.org/quake3</h2>
@@ -9,28 +10,20 @@ isntaller.</p>
 	<li><a href="?page=get&amp;method=source">Build from source-code</a></li>
 </ul>
 <?php
-$official ='
+include("downloads.php");
+
+foreach ($downloads as $os => $desc) {
+	$installers .= "<li>$desc</li>\n";
+}
+
+$official ="
 <h2>Sanctioned Installers</h2>
 <p>We have provided installers for the most popular platforms icculus.org/quake3
 supports. These have been tested, and if they do not work you can report bugs to us
 about them.</p>
 <ul>
-	<li>
-		<h3 class="windows">Windows</h3>
-		<p>There is a <a href="http://www.timedoctor.org/~zakk/ioquake3_setup.exe">
-		Windows installer</a> by <a href="mailto:phatfil@optusnet.com.au">Philip Nelson</a>.</p>
-	</li>
-	<li>
-		<h3 class="linux">Linux (x86, x86_64, ppc)</h3>
-		<p><a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
-		Installers for Linux</a> are provided by Ludwig Nussel, a developer of
-		this project. The installers are based upon loki-setup.</p>
-	</li>
-	<li>
-		<h3 class="apple">Mac OS X (Intel &amp; Power)</h3>
-		<p>Coming soon.</p>
-	</li>
-</ul>';
+	$installers
+</ul>";
 
 $unofficial = '<h2>Using packages for your Operating System</h2>
 <p>If you\'re lucky your Operating System provider or someone else using it may have already
