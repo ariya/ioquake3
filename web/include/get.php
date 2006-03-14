@@ -1,31 +1,39 @@
-<p>We have not yet had an official release. Nonetheless, you can still get
-icculus.org/quake3 packaged for a few Operating Systems or build it yourself from Subversion.</p>
 <p class="angryzakk">The Quake 3 engine is open source, this does <strong>not</strong>
 mean that Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
-
+<h2>Get icculus.org/quake3</h2>
+<p>There are three methods of installation. The preffered way is to use an official
+isntaller.</p>
+<ul>
+	<li><a href="?page=get&amp;method=official">Offical Installers</a></li>
+	<li><a href="?page=get&amp;method=unofficial">Unofficial installers and packages</a></li>
+	<li><a href="?page=get&amp;method=source">Build from source-code</a></li>
+</ul>
+<?php
+$official ='
 <h2>Sanctioned Installers</h2>
 <p>We have provided installers for the most popular platforms icculus.org/quake3
 supports. These have been tested, and if they do not work you can report bugs to us
 about them.</p>
 <ul>
 	<li>
-		<h3>Windows</h3>
+		<h3 class="windows">Windows</h3>
 		<p>There is a <a href="http://www.timedoctor.org/~zakk/ioquake3_setup.exe">
 		Windows installer</a> by <a href="mailto:phatfil@optusnet.com.au">Philip Nelson</a>.</p>
 	</li>
 	<li>
-		<h3>Linux (x86, x86_64, ppc)</h3>
+		<h3 class="linux">Linux (x86, x86_64, ppc)</h3>
 		<p><a href="ftp://ftp.gwdg.de/pub/linux/suse/ftp.suse.com/people/lnussel/quake3">
 		Installers for Linux</a> are provided by Ludwig Nussel, a developer of
 		this project. The installers are based upon loki-setup.</p>
 	</li>
 	<li>
-		<h3>Mac OS X (Intel &amp; Power)</h3>
+		<h3 class="apple">Mac OS X (Intel &amp; Power)</h3>
 		<p>Coming soon.</p>
 	</li>
-</ul>
-<h2>Using packages for your Operating System</h2>
-<p>If you're lucky your Operating System provider or someone else using it may have already
+</ul>';
+
+$unofficial = '<h2>Using packages for your Operating System</h2>
+<p>If you\'re lucky your Operating System provider or someone else using it may have already
 done all of the work for you. Please report problems with these to those who are
 guilty.</p>
 <ul>
@@ -61,18 +69,19 @@ guilty.</p>
 		<p><a href="http://www.gentoo.org/">Gentoo</a> users can just <tt>
 		emerge quake3</tt> to get a recent snapshot of our Subversion repository.</p>
 	</li>
-</ul>
+</ul>';
 
-<h2>Check out and build from Subversion</h2>
+$source =
+'<h2>Check out and build from Subversion</h2>
 <h3>Prerequisites</h3>
 <ul>
      <li><a href="http://libsdl.org/">SDL</a> is required (everywhere but Windows), Linux users need development packages if they want to compile the game. You can optionally disable SDL in the Makefile but this configuration is currently untested.</li>
      <li><a href="http://www.openal.org/">OpenAL</a> is optionally disable-able. Apple Mac OS X 10.4 comes with OpenAL.</li>
-     <li><a href="http://subversion.tigris.org/">Subversion</a> is used for acquiring our modified version of the id source code. If you're using a binary package, then you won't need this.</li>
+     <li><a href="http://subversion.tigris.org/">Subversion</a> is used for acquiring our modified version of the id source code. If you\'re using a binary package, then you won\'t need this.</li>
      <li><a href="http://www.apple.com/">Apple Mac OS X</a> users need X Code installed for gcc, and <a href="http://metissian.com/projects/macosx/subversion/">subversion</a> and other interesting things.</li>
 </ul>
 <p><em>This part assumes Windows users are using <a href="http://www.cygwin.com">Cygwin</a>.
-If you aren't, <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a> is a good
+If you aren\'t, <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a> is a good
 client.</em></p>
 <ol>
 	<li>Change into a directory that you want the tree to be kept in.</li>
@@ -115,17 +124,17 @@ client.</em></p>
 				<li>Copy <tt>ioquake3.ppc</tt>
 				in <tt>build/release-darwin-ppc/</tt>
 				to <tt>/Applications/Quake3/Quake3.app/Contents/MacOS/Quake3</tt>.</li>
-				<li>You need a libSDL-1.2.0.dylib in that .app's
+				<li>You need a libSDL-1.2.0.dylib in that .app\'s
 				MacOS directory.</li>
 				<li>You need to copy your <tt>pak0.pk3</tt>
-				from your Quake	3 CD-ROM's <tt>/baseq3</tt>
+				from your Quake	3 CD-ROM\'s <tt>/baseq3</tt>
 				directory to your <tt>/Applications/Quake3/baseq3</tt>
 				directory.</li>
 				<li>Ditto for the Team Arena mission pack, though
 				you would be substituting <tt>baseq3</tt>
 				in the above example for <tt>missionpack</tt>.</li>
 			</ol>
-			<p>After you've done all of that, you can double click
+			<p>After you\'ve done all of that, you can double click
 			on the <tt>.app</tt> file, or change to
 			the <tt>/Applications/Quake3/</tt> directory in a terminal
 			and run the binary.
@@ -143,12 +152,20 @@ client.</em></p>
 	</li>
 	<li>If everything has gone well, you should have a binary that works! If not, seek
 	<a href="?page=help">help</a>.</li>
-</ol>
-<h2>Point Release Installers</h2>
-<p>The id software patches are still needed before installing
-this project because they contain updated <tt>.pk3</tt>
-files. We mirror them for your convenience:</p>
-<ul>
-	<li><a href="http://filesingularity.timedoctor.org/linuxq3apoint-1.32b-3.x86.run">Linux</a></li>
-	<li><a href="http://filesingularity.timedoctor.org/q3pointrelease_132.exe">Windows</a></li>
-</ul>
+</ol>';
+
+switch ($_GET['method']){
+	case "official":
+		echo $official;
+		break;
+	case "unofficial":
+		echo $unofficial;
+		break;
+	case "source":
+		echo $source;
+		break;
+	default:
+		echo $official;
+		break;
+}
+?>

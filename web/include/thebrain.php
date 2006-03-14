@@ -5,7 +5,7 @@ if  ((strpos($_SERVER['HTTP_ACCEPT'], "application/xhtml+xml")) || ($ua->parent 
 
 elseif ((strpos($_SERVER['HTTP_ACCEPT'], "application/xml")) || ($ua->browser == "IE" && $ua->version >= 6)) {
 	if ($ua->browser == "IE") {
-		$extradoctype = "\n<?xml-stylesheet type=\"text/xsl\" href=\"/include/copy.xsl\"?>";
+		$extradoctype = "<?xml-stylesheet type=\"text/xsl\" href=\"/include/copy.xsl\"?>";
 	}
 	$content_type = "application/xml";
 }

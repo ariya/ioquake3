@@ -145,3 +145,22 @@ tt, .shell {
 .current {
 	font-weight: bold;
 }
+
+h3.windows, h3.linux, h3.apple {
+	padding-top: 16px;
+	padding-left: 50px;
+	height: 32px;
+	background-repeat: no-repeat;
+}
+
+.windows {
+	background-image: url('images/windows.png');
+}
+
+.linux {
+	background-image: url('images/linux.png');
+}
+
+.apple {
+	background-image: url('images/apple.png');
+}
