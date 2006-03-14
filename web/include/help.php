@@ -67,3 +67,16 @@ and <tt>svn</tt>, read their respective <tt>man</tt>
 and <tt>info</tt> pages. For a more in-depth guide on Subversion take
 a look at the <a href="http://svnbook.red-bean.com/"><acronym title="Subversion">SVN</acronym>
 Book</a>.</p>
+
+
+<h2>Will you guys remove the CD-key check?</h2>
+<p>
+This is literally the only frequenty asked question we get, and it's starting to
+wear on us. <strong>No,</strong> we will not be removing the CD-key check. The
+Quake III: Arena data is <em>not</em> free, and you <strong>must</strong> purchase
+a CD to play it! Don't let this confuse you, the engine is open source, and is absolutely
+100% free. If someone makes a new game based on the source code that does not use
+the pay-for game data, they of course don't need to and should not require a CD
+key in their game.
+</p>
+
