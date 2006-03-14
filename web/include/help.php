@@ -1,5 +1,6 @@
 <h2>Something isn't working right. Heeeeeeeelp!</h2>
-<p>You have four choices for help: documentation, the mailing list, the IRC channel,
+<p>You have four choices for help: documentation, You can try asking on th
+<a href="?page=discuss"> the mailing list, the IRC channel,</a>
 and Bugzilla. There is some great documentation for Linux users at the
 <a href="http://www.icculus.org/lgfaq/">Linux Gamers' FAQ</a>, and also at
 id's <a href="http://zerowing.idsoftware.com/linux/q3a/">original page</a> (though you
@@ -7,7 +8,10 @@ should no-longer contact them for support). Windows users and Mac users should j
 <a href="http://www.google.com/">Google</a> their errors to check for preexisting solutions.
 You can try asking on the <a href="?page=discuss">mailing list and
 <acronym title="Internet Relay Chat">IRC</acronym> channel.</a>. To file a bug report
-with Bugzilla, check out our <a href="http://bugzilla.icculus.org/">Bugzilla website</a>.</p>
+with Bugzilla, check out our <a href="http://bugzilla.icculus.org/">Bugzilla website</a>.
+Make sure that you check documentation, and read the
+<a href="http://www.icculus.org/lgfaq/">Linux Gamers' FAQ</a> before asking for 
+help! Most questions people have are not unique!</p>
 
 <h2>Pay your dues, contribute!</h2>
 <p>If you've come up with an improvement or fixed something, we'd love to hear about it!

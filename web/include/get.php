@@ -3,7 +3,7 @@
 mean that Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
 <h2>Get icculus.org/quake3</h2>
 <p>There are three methods of installation. The preffered way is to use an official
-isntaller.</p>
+installer.</p>
 <ul>
 	<li><a href="?page=get&amp;method=official">Offical Installers</a></li>
 	<li><a href="?page=get&amp;method=unofficial">Unofficial installers and packages</a></li>
@@ -32,8 +32,8 @@ guilty.</p>
 <ul>
 	<li>
 		<h3>Debian &amp; Ubuntu</h3>
-		<p>Firstly, we have packages for the i386 and amd64 versions of
-		Ubuntu and Debian Linux, thanks	to <a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/">
+		<p>There are packages for the i386 and amd64 versions of
+		Ubuntu and Debian Linux, thanks to <a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/">
 		Bruno "Fuddl" Kleinert</a>.</p>
 			<ul>
 				<li><a href="http://wwwcip.informatik.uni-erlangen.de/~sibrklei/debian/unstable/">
