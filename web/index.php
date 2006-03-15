@@ -18,8 +18,9 @@ ob_start();
 	<link rel="icon" type="image/png" href="images/icon.png"/>
 </head>
 <body>
-	<h1>icculus.org/quake3</h1>
-	<ul id="navigation">
+	<div id="header">
+		<h1>icculus.org/quake3</h1>
+		<ul id="navigation">
 <?php
 foreach ($navlist as $file => $alias) {
 	echo "<li>";
@@ -30,6 +31,7 @@ foreach ($navlist as $file => $alias) {
 ?>
 		<li><a href="http://svn.icculus.org/quake3/trunk">Subversion Web</a></li>
 	</ul>
+	</div>
 	<div id="content">
 <?php include_safe("$page.php"); ?>
 	</div>

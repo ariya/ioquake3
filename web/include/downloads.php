@@ -21,7 +21,7 @@ $downloads = array(
 				<p><a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.ippc.run">
 				Download for PowerPC</a>, 2.7MB.</p>
 				<p>( Built from Subversion revision 629. )<br />
-				<em>Thanks to <a href="http://angst.cynapses.org/">Ludwig
+				<em>Thanks to <a href="mailto:ludwig.nussel@suse.de">Ludwig
 				Nussel</a>.</em></p>',
 
  "mac"		=>	'<h3 class="apple">Mac OS X (Intel, PowerPC)</h3>
