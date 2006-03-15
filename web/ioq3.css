@@ -44,6 +44,7 @@ body, html {
 	background-color: #aaaaaa;
 	color: black;
 	margin-bottom: 0;
+	padding: 0;
 }
 
 #navigation li {
