@@ -1,6 +1,7 @@
 <?php
 set_include_path("include");
 require("thebrain.php");
+include("downloads.php");
 ob_start();
 ?>
 <?php //hawhaw

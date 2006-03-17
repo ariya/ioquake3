@@ -1,5 +1,5 @@
-<p>Quake 3 source code was released on August 20, 2005 by the fine folks at id Software.
-We thank them for that, and are continuing the mission of producing a Quake 3 that
+<p>Quake 3 engine source code was released on August 20, 2005 by the fine folks
+at id Software. We thank them for that, and are continuing the mission of producing a Quake 3 that
 is without fault.</p>
 <img src="images/quake3_logo_web.png" class="right" alt="Logo" />
 
@@ -8,9 +8,9 @@ is without fault.</p>
 code was released on August 20, 2005 under the
 <a href="http://www.gnu.org/copyleft/gpl.html" title="General Public License">GPL</a>.
 Since then, we have been cleaning up, fixing bugs, and adding features. Our
-eventual goal is to have created <em>the</em> Open-Source Quake 3 distribution upon which
+eventual goal is to have created <em>the</em> open source Quake 3 distribution upon which
 people base their games, ports, and mods. We also aim to keep compatibility with the id data
-in perpetuity, for both single player and multiplayer, plus mods (<a href="http://www.urbanterror.net/">Urban Terror</a>, <a href="http://www.rq3.com/">Reaction Quake 3</a>, etc)
+in perpetuity, for both single player and multiplayer, plus mods (<a href="http://www.urbanterror.net/">Urban Terror</a>, <a href="http://www.rq3.com/">Reaction Quake3</a>, etc)
 Our focus initially is to get the game working with our updates on Mac OS X, Windows, and Linux.
 Other platforms are a bonus. Sane new features are also welcome. Modern graphical upgrades
 (ie. bloom lighting) would have to be disabled by default.

@@ -18,7 +18,7 @@ $downloads = array(
 				Download for x86</a>, 2.7MB.</p>
 				<p><a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.x86_64.run">
 				Download for x86_64</a>, 3.4MB.</p>
-				<p><a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.ippc.run">
+				<p><a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.ppc.run">
 				Download for PowerPC</a>, 2.7MB.</p>
 				<p>( Built from Subversion revision 629. )<br />
 				<em>Thanks to <a href="mailto:ludwig.nussel@suse.de">Ludwig

@@ -13,6 +13,177 @@ Make sure that you check documentation, and read the
 <a href="http://www.icculus.org/lgfaq/">Linux Gamers' FAQ</a> before asking for 
 help! Most questions people have are not unique!</p>
 
+<h2 id="cvar">New Cvars &amp; Commands</h2>
+<p>Icculus.org/quake3 has introduced a number of new cvars and commands, mostly
+because of new features.</p>
+<table>
+	<caption>Cvar Additions</caption>
+	<tr>
+		<th scope="col">Cvar</th>
+		<th scope="col">Type</th>
+		<th scope="col">Description</th>
+	</tr>
+	<tr>
+		<td class="shell">cl_autoRecordDemo</td> <td>Boolean</td>
+		<td>Record a new demo on each map change.</td>
+	</tr>
+	<tr>
+		<td class="shell">cl_aviFrameRate</td> <td>Integer</td>
+		<td>The framerate to use when capturing video.</td>
+	</tr>
+	<tr>
+		<td class="shell">cl_aviMotionJpeg</td> <td>Boolean</td>
+		<td>Use the mjpeg codec when capturing video.</td>
+	</tr>
+	<tr><td colspan="3"></td></tr> <!-- Space -->
+	<tr>
+		<td class="shell">s_useOpenAL</td> <td>Boolean</td>
+		<td>Use the OpenAL sound backend if it's available.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alPrecache</td> <td>Boolean</td>
+		<td>Cache OpenAL sounds before use.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alGain</td> <td>Float</td>
+		<td>The value of <tt>AL_GAIN</tt> for each source.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alSources</td> <td>Integer</td>
+		<td>The total number of sources (memory) to allocate.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alDopplerFactor</td> <td>Float</td>
+		<td>The value passed to <tt>alDopplerFactor()</tt>.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alDopplerSpeed</td> <td>Float</td>
+		<td>The value passed to <tt>alDopplerVelocity()</tt>.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alMinDistance</td> <td>Float</td>
+		<td>The value of <tt>AL_REFERENCE_DISTANCE</tt> for each source.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alRolloff</td> <td>Float</td>
+		<td>The value of <tt>AL_ROLLOFF_FACTOR</tt> for each source.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alMaxSpeakerDistance</td> <td>Float</td>
+		<td><tt>ET_SPEAKERS</tt> beyond this distance are culled.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_alDriver</td> <td>String</td>
+		<td>Which OpenAL library to use.</td>
+	</tr>
+	<tr><td colspan="3"></td></tr> <!-- Space -->
+	<tr>
+		<td class="shell">s_sdlBits</td> <td>Integer</td>
+		<td>SDL bit resolution.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_sdlSpeed</td> <td>Integer</td>
+		<td>SDL sample rate.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_sdlChannels</td> <td>Integer</td>
+		<td>SDL number of channels.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_sdlDevSamps</td> <td>Integer</td>
+		<td>SDL DMA buffer size override.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_sdlMixSamps</td> <td>Integer</td>
+		<td>SDL mix buffer size override.</td>
+	</tr>
+	<tr><td colspan="3"></td></tr> <!-- Space -->
+	<tr>
+		<td class="shell" id="ttycon">ttycon_ansicolor</td> <td>Boolean</td>
+		<td>Enable the addition of <tt>ANSI</tt> escape codes for colors in the tty.</td>
+	</tr>
+	<tr>
+		<td class="shell">r_GLlibCoolDownMsec</td> <td>Integer</td>
+		<td>Wait for a number of milliseconds to close GL library.</td>
+	</tr>
+	<tr>
+		<td class="shell">com_altivec</td> <td>Boolean</td>
+		<td>Enable the use of Altivec on PowerPC systems.</td>
+	</tr>
+	<tr>
+		<td class="shell">s_backend</td> <td><dfn title="Read Only">RO</dfn> String</td>
+		<td>Indicates the current sound backend.</td>
+	</tr>
+	<tr>
+		<td class="shell">cl_consoleHistory</td> <td><dfn title="Read Only">RO</dfn> String</td>
+		<td>Stores the console history.</td>
+	</tr>
+	<tr>
+		<td class="shell">cl_platformSensitivity</td> <td><dfn title="Read Only">RO</dfn> Float</td>
+		<td>Indicates the mouse input scaling.</td>
+	</tr>
+</table>
+<table>
+	<caption>New Commands</caption>
+	<tr>
+		<th scope="col">Command</th>
+		<th scope="col">Description</th>
+	</tr>
+	<tr>
+		<td class="shell">video <em>&lt;filename&gt;</em></td>
+		<td>Start video capture (use with <tt>demo</tt> command). Outputs to 
+		<tt><em>filename</em></tt>.</td>
+	</tr>
+	<tr>
+		<td class="shell">stopvidep</td>
+		<td>Stop the video capture.</td>
+	</tr>
+</table>
+
+<h2 id="native">Using shared libraries instead of <acronym title="Quake Virtual Machine">QVM</acronym>s</h2>
+<p>To force Q3 to use shared libraries instead of
+<acronym title="Quake Virtual Machine">QVM</acronym>s run it with the following parameters:
+<br /><tt>+set sv_pure 0 +set vm_cgame 0 +set vm_game 0 +set vm_ui 0</tt></p>
+
+<h2>Using Demo Data Files</h2>
+<p>Copy <tt>demoq3/pak0.pk3</tt> from the demo installer to your <tt>baseq3</tt>
+directory. The <acronym title="Quake Virtual Machine">QVM</acronym> files in this
+<tt>pak0.pk3</tt> will not work, so you have to use the <a href="#native">native
+shared libraries</a> or <acronym title="Quake Virtual Machine">QVM</acronym>s from
+this project. To use the new <acronym title="Quake Virtual Machine">QVM</acronym>s,
+they must be put into a <tt>.pk3</tt> file. A <tt>pk3</tt> file is just a zip file,
+so any compression tool that can create such files will work. The shared libraries
+should already be in the correct place.</p>
+<p>Please bear in mind that you will not be able to play online using the demo data,
+nor is it something that we like to spend much time maintaining or supporting.</p>
+
+<h2>64-bit Mods</h2>
+<p>If you wish to compile external mods as shared libraries on a 64bit platform,
+and the mod source is derived from the id Q3 SDK, you will need to modify the
+interface code a little. Open the files ending in <tt>_syscalls.c</tt> and change
+every instance of <tt>int</tt> to intptr_t in the declaration of the <tt>syscall</tt>
+function pointer and the <tt>dllEntry</tt> function. Also find the vmMain function
+for each module (usually in <tt>cg_main.c</tt>, <tt>g_main.c</tt>, etc.) and similarly
+replace the return value in the prototype with <tt>intptr_t (arg0, arg1, ...stay int)</tt>.
+</p><p>
+Add the following code snippet to <tt>q_shared.h</tt>:
+<pre>#ifdef Q3_VM
+typedef int intptr_t;
+#else
+#include &lt;stdint.h&gt;
+#endif</pre>
+<em>Note: if you simply wish to run mods on a 64bit platform you do <strong>not</strong>
+need to recompile anything since by default Q3 uses a virtual machine system.</em></p>
+
+<h2>Creating Mods Compatible With Quake III 1.32b</h2>
+<p>If you're using this package to create mods for the last official release of
+Quake III, it is necessary to pass the command-line option <tt>-vq3</tt> to your
+invocation of <tt>q3asm</tt>. This is because by default <tt>q3asm</tt> outputs
+an updated <acronym title="Quake Virtual Machine">QVM</acronym> format that is necessary
+to fix a bug involving the optimizing pass of the x86 vm JIT compiler. Read
+<a href="http://www.quakesrc.org/forums/viewtopic.php?t=5665">the web-forum post</a>
+about this issue for more details.</p>
+
 <h2>Pay your dues, contribute!</h2>
 <p>If you've come up with an improvement or fixed something, we'd love to hear about it!
 Firstly, <em>try</em> to make sure that the patch breaks less than it fixes. We don't
@@ -28,7 +199,7 @@ not do anything at all.</p>
 
 <p>Please make it clear if the patch you're submitting for inclusion isn't yours. Point
 out where you found it and who authored it. This is so we know who to attribute
-<del>blame to when it horribly breaks things</del> credit to.</p>
+<del>blame</del> credit to.</p>
 
 <h2>Generating Patches</h2>
 <p>If you know how to code, but never made a patch before, that's okay. Here's the 10¢

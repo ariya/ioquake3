@@ -1,6 +1,6 @@
 
 <p class="angryzakk">The Quake 3 engine is open source, this does <strong>not</strong>
-mean that Quake 3 Arena the game is free. You must purchase the game to use the data!</p>
+mean that Quake III: Arena the game is free. You must purchase the game to use the data!</p>
 <h2>Get icculus.org/quake3</h2>
 <p>There are three methods of installation. The preffered way is to use an official
 installer.</p>
@@ -86,7 +86,7 @@ client.</em></p>
 	</li>
 	<li>Read the <a href="http://svn.icculus.org/*checkout*/quake3/trunk/README">README</a>
 	file. Really. Do it.</li>
-	<li>Compile and install Quake 3:
+	<li>Compile and install icculus.org/quake3:
 		<ul>
 			<li><h3>Linux and friends</h3>
 			<p>We all can compile it ourselves:</p>

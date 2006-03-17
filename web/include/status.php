@@ -1,11 +1,13 @@
 <h2>Port Status</h2>
-<p>Here is a table of the most up to date information we have regarding icculus.org/Quake3's working status on different operating systems. There are things to bear in mind when viewing this:
-</p>
+<p>Here is a table of the most up to date information we have regarding
+icculus.org/quake3's working status on different operating systems. There are things
+to bear in mind when viewing this:
 <ul>
 	<li>The status column refers only to the latest information we are given, so it may be out of date.</li>
 	<li>"Working" doesn't always imply "usable", see the <em>Notes</em> column.</li>
 	<li>Status is one of <em>working</em>, <em>broken</em> or <em>unknown</em>.</li>
 </ul>
+</p>
 <table>
 	<caption>Status of Port Targets</caption>
 	<tr>
@@ -118,8 +120,8 @@ Web interface</a>.</p>
 	<li><a href="http://www.vorbis.com/">Ogg Vorbis</a> support.</li>
 	<li><a href="http://libsdl.org" title="Simple DirectMedia Layer">SDL</a> being used
 	for input, OpenGL context management, and sound. Though not on Windows yet.</li>
-	<li>Colors converted to ANSI escape codes in terminal output.
-	(set <tt>ttycon_ansicolor</tt> to 1 to enable this.)</li>
+	<li>Colors converted to ANSI escape codes in terminal output. See the entry on
+	<a href="?page=help#ttycon">the cvar listing</a> for usage.</li>
 	<li>Much improved autocompletion on the console.</li>
 	<li>Persistent console history.</li>
 	<li>Much improved <acronym title="Quake Virtual Machine">QVM</acronym> tools.</li>
@@ -127,18 +129,20 @@ Web interface</a>.</p>
 	<li>More supported platforms, see the table above.</li>
 	<li>Lots and lots of bug fixes.</li>
 </ul>
+<p>There is a listing on the <a href="?page=help#cvar">Help</a> section with information
+on new cvars and commands introduced in this project.</p>
 
 <h2>The Future</h2>
 <h3>Release Criteria</h3>
 <p>Before a release can occur, the following must occur for each platform:</p>
 <ol>
-	<li>Testing of <em>Quake 3: Arena</em> single- and multi-player.</li>
-	<li>Testing of <em>Quake 3: Team Arena</em> single- and multi-player.</li>
+	<li>Testing of <em>Quake III: Arena</em> single- and multi-player.</li>
+	<li>Testing of <em>Quake III: Team Arena</em> single- and multi-player.</li>
 	<li>Testing of at least one other Quake 3 modification. Possibly
 	<a href="http://www.urbanterror.net/">Urban Terror</a>,
-	<a href="http://www.rq3.com/">Reaction Quake 3</a>, or any other popular
+	<a href="http://www.rq3.com/">Reaction Quake3</a>, or any other popular
 	modification that puts the engine through it's paces.</li>
-	<li>An installer which includes all <a href="?page=getdata">to-date id <tt>pk3</tt>
+	<li>An installer which includes all <a href="?page=getdata">up-to-date id <tt>pk3</tt>
 	files</a>, requires original CD-ROM. Users might need to copy the
 	<tt>pak0.pk3</tt> file themselves.</li>
 </ol>
