@@ -5,24 +5,39 @@ $downloads = array(
  				id. You need to copy your <tt>pak0.pk3</tt> from the CD-ROM
  				when the installation process is completed.</p>
  				<p><a href="http://icculus.org/~zakk/ioquake3_setup.exe">
- 				Download for Windows x86</a>, 26MB.</p><p><em> Thanks to
- 				<a href="mailto:phatfil@optusnet.com.au">Philip Nelson</a>.</em></p>',
+ 				Download for Windows x86</a>, 26MB.
+ 				<em>MD5: <tt>7c5d3b470648486e060f45456077d6be</tt></em><br />
+ 				<em>Built from Subversion
+ 				<a href="http://svn.icculus.org/quake3/trunk/?rev=620">revision 620</a>.</em>
+ 				</p><p>
+ 				Thanks to	<a href="mailto:phatfil@optusnet.com.au">Philip
+ 				Nelson</a>.</p>',
  				
  "linux"		=>	'<h3 class="linux">Linux (x86, x86_64, PowerPC)</h3>
-				<p>Does not provide latest patch <tt>pk3</tt> data. You must
-				<a href="?page=getdata">download it seperately</a>. When the
-				installation is complete, you need to copy your <tt>pak0.pk3</tt>
-				from the CD-ROM. Execute the <tt>.run</tt> file as root with
-				something like <tt>sh <em>ioquake3-version_etc.run</em></tt></p>
-				<p><a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.i386.run">
-				Download for x86</a>, 2.7MB.</p>
-				<p><a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.x86_64.run">
-				Download for x86_64</a>, 3.4MB.</p>
-				<p><a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.ppc.run">
-				Download for PowerPC</a>, 2.7MB.</p>
-				<p>( Built from Subversion revision 629. )<br />
-				<em>Thanks to <a href="mailto:ludwig.nussel@suse.de">Ludwig
-				Nussel</a>.</em></p>',
+				<p>You must <a href="?page=getdata">download patch data seperately</a>
+				with these installers. When the installation is complete,
+				you need to copy your <tt>pak0.pk3</tt> from your legal CD-ROM.
+				Execute the <tt>.run</tt> file as root with something like 
+				<tt>sh <em>ioquake3-version_etc.run</em></tt></p>
+				<p>
+				<a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.i386.run">
+				Download for x86</a>, 2.7MB.
+				<em>MD5: <a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.i386.run.asc">
+				<tt>1f77f6afb2b6428e8e47ddc3d8bc8b98</tt></a></em><br />
+				<a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.x86_64.run">
+				Download for x86_64</a>, 3.4MB.
+				<em>MD5: <a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.x86_64.run.asc">
+				<tt>bf338d31d40991e0e8f930a0e5b078c7</tt></a></em><br />
+				<a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.ppc.run">
+				Download for PowerPC</a>, 2.7MB.
+				<em>MD5: <a href="http://icculus.org/~zakk/q3run/ioquake3-1.33_SVN629-0.1.ppc.run.asc">
+				<tt>cefbaca88dd5c5cd8b151f21f38f20df</tt></a></em><br />
+				<em>Built from Subversion
+				<a href="http://svn.icculus.org/quake3/trunk/?rev=629">revision 629</a>.</em>
+				</p><p>
+				Thanks to <a href="mailto:ludwig.nussel@suse.de">Ludwig
+				Nussel</a>.
+				</p>',
 
  "mac"		=>	'<h3 class="apple">Mac OS X (Intel, PowerPC)</h3>
 				<p>Coming soon.</p>'

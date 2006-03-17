@@ -172,7 +172,7 @@ typedef int intptr_t;
 #else
 #include &lt;stdint.h&gt;
 #endif</pre>
-<em>Note: if you simply wish to run mods on a 64bit platform you do <strong>not</strong>
+<em>Note: if you simply wish to run mods on a 64bit platform, you do <strong>not</strong>
 need to recompile anything since by default Q3 uses a virtual machine system.</em></p>
 
 <h2>Creating Mods Compatible With Quake III 1.32b</h2>
