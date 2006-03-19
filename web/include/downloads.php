@@ -6,9 +6,9 @@ $downloads = array(
  				when the installation process is completed.</p>
  				<p><a href="http://icculus.org/~zakk/ioquake3_setup.exe">
  				Download for Windows x86</a>, 26MB.
- 				<em>MD5: <tt>7c5d3b470648486e060f45456077d6be</tt></em><br />
+ 				<em>MD5: <tt>cd1298f0430ec9b040f2c855d78363c5</tt></em><br />
  				<em>Built from Subversion
- 				<a href="http://svn.icculus.org/quake3/trunk/?rev=620">revision 620</a>.</em>
+ 				<a href="http://svn.icculus.org/quake3/trunk/?rev=647">revision 647</a>.</em>
  				</p><p>
  				Thanks to	<a href="mailto:phatfil@optusnet.com.au">Philip
  				Nelson</a>.</p>',
