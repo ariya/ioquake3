@@ -95,7 +95,9 @@ img, fieldset {
 table {
 	border: none;
 	border-spacing: 0;
+	border-collapse: collapse;
 	margin-left: 1em;
+	empty-cells: show;
 }
 
 caption {
@@ -161,18 +163,18 @@ acronym, dfn {
 h3.windows, h3.linux, h3.apple {
 	padding-top: 16px;
 	padding-left: 50px;
-	height: 32px;
+	height: 48px;
 	background-repeat: no-repeat;
 }
 
-.windows {
+h3.windows {
 	background-image: url('images/windows.png');
 }
 
-.linux {
+h3.linux {
 	background-image: url('images/linux.png');
 }
 
-.apple {
+h3.apple {
 	background-image: url('images/apple.png');
 }
