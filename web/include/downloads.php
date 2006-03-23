@@ -41,9 +41,12 @@ $downloads = array(
 
  "mac"		=>	'<h3 class="apple">Mac OS X (PowerPC)</h3>
 				<p>You must <a href="http://icculus.org/quake3/?page=getdata">download patch data seperately</a>
-				with this dmg. When the installation is complete,
-				you need to copy your pak0.pk3 from your legal CD-ROM. Intel binaries will be coming shortly.</p>
-<p><a href="http://icculus.org/~zakk/q3run/ioquake3.dmg">
- 				Download for OS X (PowerPC)</a>, 5.5MB.</p> '
+				with this <tt>dmg</tt>. When the installation is complete,
+				you need to copy your <tt>pak0.pk3</tt> from your legal CD-ROM. 
+                                Further instruction is in the <tt>ReadMe.rtf</tt> included in 
+                                the <tt>dmg</tt>. Intel binaries will be coming shortly.</p>
+                                <p><a href="http://icculus.org/~zakk/q3run/ioquake3.dmg">
+ 				Download for OS X (PowerPC)</a>, 5.5MB.<br />
+                                <em>Built from Subversion <a href="http://svn.icculus.org/quake3/trunk/?rev=653">revision 653</a>.</em></p><p>Thanks to Vincent Morenas for help in creating this <tt>dmg</tt>.</p> '
 );
 ?>
