@@ -4,7 +4,7 @@ $downloads = array(
  				<p>Provides latest patch <tt>pk3</tt> data from
  				id. You need to copy your <tt>pak0.pk3</tt> from the CD-ROM
  				when the installation process is completed.</p>
- 				<p><a href="http://icculus.org/~zakk/ioquake3_setup.exe">
+ 				<p><a href="http://icculus.org/~zakk/q3run/ioquake3_setup.exe">
  				Download for Windows x86</a>, 26MB.
  				<em>MD5: <tt>cd1298f0430ec9b040f2c855d78363c5</tt></em><br />
  				<em>Built from Subversion
@@ -39,7 +39,11 @@ $downloads = array(
 				Nussel</a>.
 				</p>',
 
- "mac"		=>	'<h3 class="apple">Mac OS X (Intel, PowerPC)</h3>
-				<p>Coming soon.</p>'
+ "mac"		=>	'<h3 class="apple">Mac OS X (PowerPC)</h3>
+				<p>You must <a href="http://icculus.org/quake3/?page=getdata">download patch data seperately</a>
+				with this dmg. When the installation is complete,
+				you need to copy your pak0.pk3 from your legal CD-ROM. Intel binaries will be coming shortly.</p>
+<p><a href="http://icculus.org/~zakk/q3run/ioquake3.dmg">
+ 				Download for OS X (PowerPC)</a>, 5.5MB.</p> '
 );
 ?>
